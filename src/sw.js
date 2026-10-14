@@ -1,4 +1,4 @@
-// Caches the app shell so Glass Trader opens instantly and installs on a phone. API calls are never cached:
+// Caches the app shell so Crypto Trader opens instantly and installs on a phone. API calls are never cached:
 // account data must always come live from the server.
 const CACHE = 'glasstrader-__V__';
 // Paths are relative to this file, so the app works at a server's root and in a subfolder (GitHub Pages).

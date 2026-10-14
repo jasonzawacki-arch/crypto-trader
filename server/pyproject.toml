@@ -1,7 +1,7 @@
 [project]
 name = "gtrader"
 version = "0.1.0"
-description = "Glass Trader server: paper exchange, risk, bots, backtester, HTTP API"
+description = "Crypto Trader server: paper exchange, risk, bots, backtester, HTTP API"
 requires-python = ">=3.11"
 dependencies = ["starlette>=0.37", "uvicorn>=0.30", "sse-starlette>=2.0"]
 

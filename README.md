@@ -1,9 +1,9 @@
-# Glass Trader
+# Crypto Trader
 Paper-trading crypto simulator with a liquid-glass UI. Paper money only; not financial advice.
 
 **Live demo: https://jasonzawacki-arch.github.io/crypto-trader/** (runs entirely in your browser with paper money and recorded Gemini prices; no sign-in, no server, installable on a phone). The Python server adds live prices, saved accounts and logins; see `server/README.md`.
 
-![Glass Trader: trading screen on a desktop (dark) and a phone (light), paper money on recorded prices](docs/screenshots/glass-trader.jpg)
+![Crypto Trader: trading screen on a desktop (dark) and a phone (light), paper money on recorded prices](docs/screenshots/crypto-trader.jpg)
 
 ## Layout
 - `src/` TypeScript core and browser UI. It runs standalone in a browser tab with no server (this is the mode the Claude preview uses).

@@ -1,4 +1,4 @@
-# Glass Trader: architecture and the path to live
+# Crypto Trader: architecture and the path to live
 
 Paper only today. Spot, long-only, BTC/ETH/SOL vs USD.
 

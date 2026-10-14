@@ -77,7 +77,7 @@ function shell(): void {
   const app = $('app')!;
   app.innerHTML = `
   <header class="top glass">
-    <div class="brand"><b></b>Glass Trader</div>
+    <div class="brand"><b></b>Crypto Trader</div>
     <div class="tags"><span class="tag paper">Paper money</span><span class="tag" id="modeTag"></span>
       <button class="iconbtn" data-act="theme" aria-label="Switch theme" title="Theme: auto / dark / light">${ICON.theme}</button></div>
   </header>
@@ -611,7 +611,7 @@ function checkAlerts(): void {
       if (ui.notify && 'Notification' in window && Notification.permission === 'granted' && Date.now() - lastNotify > 4000) {
         lastNotify = Date.now();
         try {
-          new Notification(l.kind === 'risk' ? 'Glass Trader: risk' : 'Glass Trader: fill', { body: l.text });
+          new Notification(l.kind === 'risk' ? 'Crypto Trader: risk' : 'Crypto Trader: fill', { body: l.text });
         } catch (e) {
           /* some browsers only allow this from a service worker */
         }
@@ -1171,7 +1171,7 @@ async function bootServed(): Promise<void> {
     ui.srv.url = location.origin;
     await connectServer();
   } catch (e) {
-    /* not served by Glass Trader: stay in this page */
+    /* not served by Crypto Trader: stay in this page */
   }
 }
 
@@ -1308,7 +1308,7 @@ async function exportFills(): Promise<void> {
   const rows: unknown[][] = [['time_utc', 'symbol', 'side', 'quantity', 'price', 'value', 'fee', 'realized_profit', 'order_type', 'source', 'maker', 'tag', 'note']];
   const types = new Map(S.ex.orders.map((o) => [o.id, o.type]));
   for (const f of fills) rows.push([new Date(f.t).toISOString(), f.symbol, f.side, f.qty, f.price, +(f.qty * f.price).toFixed(2), +f.fee.toFixed(4), f.side === 'sell' ? +f.realized.toFixed(4) : '', types.get(f.orderId) ?? '', f.source === 'manual' ? 'you' : S.eng.bot(f.source)?.cfg.name || f.source, f.maker ? 'yes' : 'no', S.journal[f.id]?.tag ?? '', S.journal[f.id]?.note ?? '']);
-  await exportFile('glass-trader-fills.csv', toCsv(rows));
+  await exportFile('crypto-trader-fills.csv', toCsv(rows));
 }
 async function exportSummary(): Promise<void> {
   const st = await S.stats();
@@ -1320,5 +1320,5 @@ async function exportSummary(): Promise<void> {
   for (const g of st.bySource) rows.push(['source:' + g.key, `trades ${g.trades}; realized ${g.realized.toFixed(2)}; fees ${g.fees.toFixed(2)}`]);
   for (const g of st.bySymbol) rows.push(['coin:' + g.key, `trades ${g.trades}; realized ${g.realized.toFixed(2)}; fees ${g.fees.toFixed(2)}`]);
   rows.push(['mode', S.mode], ['exported_at_utc', new Date().toISOString()]);
-  await exportFile('glass-trader-summary.csv', toCsv(rows));
+  await exportFile('crypto-trader-summary.csv', toCsv(rows));
 }

@@ -114,7 +114,7 @@ export class RemoteSession implements Backend {
     } catch (e) {
       throw new Error('Could not reach the server. Check the address and that it is running. (The Claude preview blocks outside connections.)');
     }
-    if (h.status !== 200 || !h.json.ok) throw new Error('That address did not answer like a Glass Trader server.');
+    if (h.status !== 200 || !h.json.ok) throw new Error('That address did not answer like a Crypto Trader server.');
     if (h.json.live) throw new Error('This server reports a LIVE exchange. This build only supports paper trading, so it will not connect.');
     const s = await this.api('GET', '/api/state');
     if (s.status === 401) throw new Error(this.token ? 'The server rejected the token or sign-in.' : 'This server needs a sign-in or token.');

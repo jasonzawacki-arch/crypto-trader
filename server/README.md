@@ -1,4 +1,4 @@
-# Glass Trader server (Python)
+# Crypto Trader server (Python)
 
 The server owns the account, exchange connection, risk limits and kill switch. The browser is a thin client.
 

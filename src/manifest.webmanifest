@@ -1,6 +1,6 @@
 {
-  "name": "Glass Trader",
-  "short_name": "Glass Trader",
+  "name": "Crypto Trader",
+  "short_name": "Crypto Trader",
   "description": "Paper-trading crypto simulator with bots, backtests and risk limits",
   "start_url": "./",
   "scope": "./",

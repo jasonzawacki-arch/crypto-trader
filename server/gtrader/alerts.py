@@ -49,7 +49,7 @@ class Notifier:
         if len(self._recent) >= self.max_per_minute:  # a runaway bot must not flood your phone
             return False
         self._recent.append(t)
-        title = {"risk": "Glass Trader: risk", "fill": "Glass Trader: fill", "warn": "Glass Trader: warning"}.get(kind, "Glass Trader")
+        title = {"risk": "Crypto Trader: risk", "fill": "Crypto Trader: fill", "warn": "Crypto Trader: warning"}.get(kind, "Crypto Trader")
         if self.fmt == "json":
             body, headers = json.dumps({"text": f"{title}: {text}", "content": f"{title}: {text}"}).encode(), {"Content-Type": "application/json"}
         else:
