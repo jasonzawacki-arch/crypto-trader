@@ -1,0 +1,16 @@
+{
+  "name": "Glass Trader",
+  "short_name": "Glass Trader",
+  "description": "Paper-trading crypto simulator with bots, backtests and risk limits",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#060a11",
+  "theme_color": "#060a11",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

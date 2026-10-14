@@ -1,0 +1,7783 @@
+{
+ "backtests": [
+  {
+   "symbol": "BTC-USD",
+   "strategy": "sma-cross",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9842.817593864474,
+    "returnPct": -1.5718240613552537,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 5.746683943799491,
+    "sharpe": -1.3115429988221528,
+    "trades": 25,
+    "winRatePct": 20,
+    "profitFactor": 0.7992589104878435,
+    "exposurePct": 54.3403964456596,
+    "feesPaid": 414.5545146760229,
+    "candles": 1463
+   },
+   "fills": 51,
+   "lastEquity": 9842.817593864474
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "sma-cross",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9842.817593864474,
+    "returnPct": -1.5718240613552537,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 5.746683943799491,
+    "sharpe": -1.3115429988221528,
+    "trades": 25,
+    "winRatePct": 20,
+    "profitFactor": 0.7992589104878435,
+    "exposurePct": 54.3403964456596,
+    "feesPaid": 414.5545146760229,
+    "candles": 1463
+   },
+   "fills": 51,
+   "lastEquity": 9842.817593864474
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "rsi-revert",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9913.885123401877,
+    "returnPct": -0.8611487659812345,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 1.510121499611321,
+    "sharpe": -1.7944393059054784,
+    "trades": 9,
+    "winRatePct": 33.33333333333333,
+    "profitFactor": 0.3370446446987782,
+    "exposurePct": 16.267942583732058,
+    "feesPaid": 143.760721004924,
+    "candles": 1463
+   },
+   "fills": 18,
+   "lastEquity": 9913.885123401877
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "rsi-revert",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9913.885123401877,
+    "returnPct": -0.8611487659812345,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 1.510121499611321,
+    "sharpe": -1.7944393059054784,
+    "trades": 9,
+    "winRatePct": 33.33333333333333,
+    "profitFactor": 0.3370446446987782,
+    "exposurePct": 16.267942583732058,
+    "feesPaid": 143.760721004924,
+    "candles": 1463
+   },
+   "fills": 18,
+   "lastEquity": 9913.885123401877
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "donchian",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10000.659328333475,
+    "returnPct": 0.006593283334743738,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 4.258066437600385,
+    "sharpe": 0.03766354541905826,
+    "trades": 13,
+    "winRatePct": 30.76923076923077,
+    "profitFactor": 1.0015285583883669,
+    "exposurePct": 39.02939166097061,
+    "feesPaid": 212.16608328812327,
+    "candles": 1463
+   },
+   "fills": 26,
+   "lastEquity": 10000.659328333475
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "donchian",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10000.659328333475,
+    "returnPct": 0.006593283334743738,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 4.258066437600385,
+    "sharpe": 0.03766354541905826,
+    "trades": 13,
+    "winRatePct": 30.76923076923077,
+    "profitFactor": 1.0015285583883669,
+    "exposurePct": 39.02939166097061,
+    "feesPaid": 212.16608328812327,
+    "candles": 1463
+   },
+   "fills": 26,
+   "lastEquity": 10000.659328333475
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "atr-break",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9783.861772788276,
+    "returnPct": -2.1613822721172404,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 5.6276083012383245,
+    "sharpe": -2.03187080983384,
+    "trades": 28,
+    "winRatePct": 17.857142857142858,
+    "profitFactor": 0.7321018312833265,
+    "exposurePct": 33.56117566643883,
+    "feesPaid": 460.6871211620292,
+    "candles": 1463
+   },
+   "fills": 57,
+   "lastEquity": 9783.861772788276
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "atr-break",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9783.861772788276,
+    "returnPct": -2.1613822721172404,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 5.6276083012383245,
+    "sharpe": -2.03187080983384,
+    "trades": 28,
+    "winRatePct": 17.857142857142858,
+    "profitFactor": 0.7321018312833265,
+    "exposurePct": 33.56117566643883,
+    "feesPaid": 460.6871211620292,
+    "candles": 1463
+   },
+   "fills": 57,
+   "lastEquity": 9783.861772788276
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "bollinger",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9488.63038655513,
+    "returnPct": -5.113696134448686,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 5.3652742552517525,
+    "sharpe": -8.857816975106594,
+    "trades": 23,
+    "winRatePct": 8.695652173913043,
+    "profitFactor": 0.021300302233330463,
+    "exposurePct": 23.171565276828435,
+    "feesPaid": 359.55260734506885,
+    "candles": 1463
+   },
+   "fills": 46,
+   "lastEquity": 9488.63038655513
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "bollinger",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9488.63038655513,
+    "returnPct": -5.113696134448686,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 5.3652742552517525,
+    "sharpe": -8.857816975106594,
+    "trades": 23,
+    "winRatePct": 8.695652173913043,
+    "profitFactor": 0.021300302233330463,
+    "exposurePct": 23.171565276828435,
+    "feesPaid": 359.55260734506885,
+    "candles": 1463
+   },
+   "fills": 46,
+   "lastEquity": 9488.63038655513
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "dca",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 11228.528116607753,
+    "returnPct": 12.285281166077521,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 3.5968718226256455,
+    "sharpe": 4.185550123143681,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.65823650034177,
+    "feesPaid": 16.014601016148,
+    "candles": 1463
+   },
+   "fills": 2,
+   "lastEquity": 11228.528116607753
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "dca",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 11228.528116607753,
+    "returnPct": 12.285281166077521,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 3.5968718226256455,
+    "sharpe": 4.185550123143681,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.65823650034177,
+    "feesPaid": 16.014601016148,
+    "candles": 1463
+   },
+   "fills": 2,
+   "lastEquity": 11228.528116607753
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "buy-hold",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10612.907603612257,
+    "returnPct": 6.1290760361225605,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 1.9138225056090556,
+    "sharpe": 4.070099200358429,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.93164730006835,
+    "feesPaid": 8.0055882197424,
+    "candles": 1463
+   },
+   "fills": 1,
+   "lastEquity": 10612.907603612257
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "buy-hold",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10612.907603612257,
+    "returnPct": 6.1290760361225605,
+    "buyHoldPct": 31.143849262894243,
+    "maxDrawdownPct": 1.9138225056090556,
+    "sharpe": 4.070099200358429,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.93164730006835,
+    "feesPaid": 8.0055882197424,
+    "candles": 1463
+   },
+   "fills": 1,
+   "lastEquity": 10612.907603612257
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "sma-cross",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9775.714641366161,
+    "returnPct": -2.242853586338389,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 7.6883906098890495,
+    "sharpe": -1.465857547109424,
+    "trades": 22,
+    "winRatePct": 13.636363636363635,
+    "profitFactor": 0.7481211000838276,
+    "exposurePct": 53.520164046479834,
+    "feesPaid": 358.53940949384014,
+    "candles": 1463
+   },
+   "fills": 44,
+   "lastEquity": 9775.714641366161
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "sma-cross",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9775.714641366161,
+    "returnPct": -2.242853586338389,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 7.6883906098890495,
+    "sharpe": -1.465857547109424,
+    "trades": 22,
+    "winRatePct": 13.636363636363635,
+    "profitFactor": 0.7481211000838276,
+    "exposurePct": 53.520164046479834,
+    "feesPaid": 358.53940949384014,
+    "candles": 1463
+   },
+   "fills": 44,
+   "lastEquity": 9775.714641366161
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "rsi-revert",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9908.756168676717,
+    "returnPct": -0.9124383132328329,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 2.045166393688549,
+    "sharpe": -1.2561175051580196,
+    "trades": 11,
+    "winRatePct": 63.63636363636363,
+    "profitFactor": 0.47752083353753766,
+    "exposurePct": 21.394395078605605,
+    "feesPaid": 176.48775934328,
+    "candles": 1463
+   },
+   "fills": 22,
+   "lastEquity": 9908.756168676717
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "rsi-revert",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9854.29326345952,
+    "returnPct": -1.457067365404796,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 2.521210646018025,
+    "sharpe": -1.980110073905493,
+    "trades": 13,
+    "winRatePct": 61.53846153846154,
+    "profitFactor": 0.4758201158546882,
+    "exposurePct": 21.257689678742313,
+    "feesPaid": 207.85482946047998,
+    "candles": 1463
+   },
+   "fills": 26,
+   "lastEquity": 9854.29326345952
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "donchian",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9695.059611134198,
+    "returnPct": -3.04940388865802,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 8.490533287021627,
+    "sharpe": -2.200192745292843,
+    "trades": 14,
+    "winRatePct": 14.285714285714285,
+    "profitFactor": 0.631974120362557,
+    "exposurePct": 39.78127136021873,
+    "feesPaid": 224.72407259579998,
+    "candles": 1463
+   },
+   "fills": 28,
+   "lastEquity": 9695.059611134198
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "donchian",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9669.715786018598,
+    "returnPct": -3.3028421398140217,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 8.729747898774207,
+    "sharpe": -2.3458637077855866,
+    "trades": 14,
+    "winRatePct": 14.285714285714285,
+    "profitFactor": 0.6131834096225174,
+    "exposurePct": 39.64456596035543,
+    "feesPaid": 224.25850293140005,
+    "candles": 1463
+   },
+   "fills": 28,
+   "lastEquity": 9669.715786018598
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "atr-break",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9845.902949316844,
+    "returnPct": -1.5409705068315627,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 6.835313597990178,
+    "sharpe": -1.0366120066193312,
+    "trades": 27,
+    "winRatePct": 11.11111111111111,
+    "profitFactor": 0.81945503982465,
+    "exposurePct": 34.859876965140124,
+    "feesPaid": 441.67015671316,
+    "candles": 1463
+   },
+   "fills": 54,
+   "lastEquity": 9845.902949316844
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "atr-break",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9845.902949316844,
+    "returnPct": -1.5409705068315627,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 6.835313597990178,
+    "sharpe": -1.0366120066193312,
+    "trades": 27,
+    "winRatePct": 11.11111111111111,
+    "profitFactor": 0.81945503982465,
+    "exposurePct": 34.859876965140124,
+    "feesPaid": 441.67015671316,
+    "candles": 1463
+   },
+   "fills": 54,
+   "lastEquity": 9845.902949316844
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "bollinger",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9549.450129714913,
+    "returnPct": -4.505498702850874,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 5.095678310220465,
+    "sharpe": -5.813268917611517,
+    "trades": 23,
+    "winRatePct": 17.391304347826086,
+    "profitFactor": 0.1109173651941726,
+    "exposurePct": 20.164046479835953,
+    "feesPaid": 361.90171585508,
+    "candles": 1463
+   },
+   "fills": 46,
+   "lastEquity": 9549.450129714913
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "bollinger",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9531.200647349553,
+    "returnPct": -4.687993526504474,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 5.277196138694872,
+    "sharpe": -6.000928127073123,
+    "trades": 24,
+    "winRatePct": 20.833333333333336,
+    "profitFactor": 0.1639175407689345,
+    "exposurePct": 20.095693779904305,
+    "feesPaid": 377.09906384044007,
+    "candles": 1463
+   },
+   "fills": 48,
+   "lastEquity": 9531.200647349553
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "dca",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 11277.929169556199,
+    "returnPct": 12.779291695561978,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 6.61719528684221,
+    "sharpe": 3.1955885065203016,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.65823650034177,
+    "feesPaid": 16.0813537538,
+    "candles": 1463
+   },
+   "fills": 2,
+   "lastEquity": 11277.929169556199
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "dca",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 11277.929169556199,
+    "returnPct": 12.779291695561978,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 6.61719528684221,
+    "sharpe": 3.1955885065203016,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.65823650034177,
+    "feesPaid": 16.0813537538,
+    "candles": 1463
+   },
+   "fills": 2,
+   "lastEquity": 11277.929169556199
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "buy-hold",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10631.86279977788,
+    "returnPct": 6.318627997778803,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 3.5978437164991393,
+    "sharpe": 3.027183836282597,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.93164730006835,
+    "feesPaid": 8.08240337212,
+    "candles": 1463
+   },
+   "fills": 1,
+   "lastEquity": 10631.86279977788
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "buy-hold",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10631.86279977788,
+    "returnPct": 6.318627997778803,
+    "buyHoldPct": 32.96944621260343,
+    "maxDrawdownPct": 3.5978437164991393,
+    "sharpe": 3.027183836282597,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.93164730006835,
+    "feesPaid": 8.08240337212,
+    "candles": 1463
+   },
+   "fills": 1,
+   "lastEquity": 10631.86279977788
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "sma-cross",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9802.498563482077,
+    "returnPct": -1.9750143651792285,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 7.194507643195104,
+    "sharpe": -1.0688756349719133,
+    "trades": 20,
+    "winRatePct": 30,
+    "profitFactor": 0.7748769417126425,
+    "exposurePct": 53.65686944634312,
+    "feesPaid": 329.63536525092405,
+    "candles": 1463
+   },
+   "fills": 40,
+   "lastEquity": 9802.498563482077
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "sma-cross",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9807.909258036072,
+    "returnPct": -1.920907419639284,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 7.143281706376663,
+    "sharpe": -1.0368094561729977,
+    "trades": 20,
+    "winRatePct": 30,
+    "profitFactor": 0.7796855814600053,
+    "exposurePct": 53.520164046479834,
+    "feesPaid": 329.65709494792804,
+    "candles": 1463
+   },
+   "fills": 40,
+   "lastEquity": 9807.909258036072
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "rsi-revert",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9756.934272962377,
+    "returnPct": -2.4306572703762352,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 3.3230561016262254,
+    "sharpe": -2.607620231191872,
+    "trades": 11,
+    "winRatePct": 36.36363636363637,
+    "profitFactor": 0.31085981113589933,
+    "exposurePct": 21.667805878332196,
+    "feesPaid": 183.981621854624,
+    "candles": 1463
+   },
+   "fills": 23,
+   "lastEquity": 9756.934272962377
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "rsi-revert",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9660.885401700858,
+    "returnPct": -3.391145982991417,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 4.055152228855586,
+    "sharpe": -3.4763118215222732,
+    "trades": 14,
+    "winRatePct": 35.714285714285715,
+    "profitFactor": 0.22513019837094547,
+    "exposurePct": 21.462747778537253,
+    "feesPaid": 230.290131866144,
+    "candles": 1463
+   },
+   "fills": 29,
+   "lastEquity": 9660.885401700858
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "donchian",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10275.807944270548,
+    "returnPct": 2.7580794427054744,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 5.398730073890954,
+    "sharpe": 1.6083604338753636,
+    "trades": 10,
+    "winRatePct": 20,
+    "profitFactor": 1.5247233075069435,
+    "exposurePct": 50.23923444976076,
+    "feesPaid": 169.88553119845201,
+    "candles": 1463
+   },
+   "fills": 20,
+   "lastEquity": 10275.807944270548
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "donchian",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10229.555557656684,
+    "returnPct": 2.2955555765668434,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 5.824539366407414,
+    "sharpe": 1.348184306916199,
+    "trades": 10,
+    "winRatePct": 20,
+    "profitFactor": 1.401406608086197,
+    "exposurePct": 46.206425153793575,
+    "feesPaid": 169.624419130316,
+    "candles": 1463
+   },
+   "fills": 20,
+   "lastEquity": 10229.555557656684
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "atr-break",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9922.408358307837,
+    "returnPct": -0.7759164169216293,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 5.403503081821551,
+    "sharpe": -0.44070527971734264,
+    "trades": 26,
+    "winRatePct": 26.923076923076923,
+    "profitFactor": 0.9176907642723048,
+    "exposurePct": 35.88516746411483,
+    "feesPaid": 426.339459781164,
+    "candles": 1463
+   },
+   "fills": 52,
+   "lastEquity": 9922.408358307837
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "atr-break",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9922.408358307837,
+    "returnPct": -0.7759164169216293,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 5.403503081821551,
+    "sharpe": -0.44070527971734264,
+    "trades": 26,
+    "winRatePct": 26.923076923076923,
+    "profitFactor": 0.9176907642723048,
+    "exposurePct": 35.88516746411483,
+    "feesPaid": 426.339459781164,
+    "candles": 1463
+   },
+   "fills": 52,
+   "lastEquity": 9922.408358307837
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "bollinger",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9297.773941464684,
+    "returnPct": -7.022260585353157,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 7.795064832091354,
+    "sharpe": -7.1050350300760705,
+    "trades": 24,
+    "winRatePct": 25,
+    "profitFactor": 0.06282259102023252,
+    "exposurePct": 23.444976076555022,
+    "feesPaid": 375.161877174316,
+    "candles": 1463
+   },
+   "fills": 48,
+   "lastEquity": 9297.773941464684
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "bollinger",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 9269.662534927631,
+    "returnPct": -7.303374650723693,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 7.873554227629165,
+    "sharpe": -7.4168398595673874,
+    "trades": 27,
+    "winRatePct": 29.629629629629626,
+    "profitFactor": 0.12343204192064251,
+    "exposurePct": 23.171565276828435,
+    "feesPaid": 420.04343532036813,
+    "candles": 1463
+   },
+   "fills": 54,
+   "lastEquity": 9269.662534927631
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "dca",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 11643.935983039933,
+    "returnPct": 16.439359830399326,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 9.087215005329034,
+    "sharpe": 3.3334254506172183,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.65823650034177,
+    "feesPaid": 16.092060498068,
+    "candles": 1463
+   },
+   "fills": 2,
+   "lastEquity": 11643.935983039933
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "dca",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 11643.935983039933,
+    "returnPct": 16.439359830399326,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 9.087215005329034,
+    "sharpe": 3.3334254506172183,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.65823650034177,
+    "feesPaid": 16.092060498068,
+    "candles": 1463
+   },
+   "fills": 2,
+   "lastEquity": 11643.935983039933
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "buy-hold",
+   "stop": 0,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10801.015568737595,
+    "returnPct": 8.010155687375953,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 5.0416305863701245,
+    "sharpe": 3.1005725348251394,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.93164730006835,
+    "feesPaid": 8.082364644404,
+    "candles": 1463
+   },
+   "fills": 1,
+   "lastEquity": 10801.015568737595
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "buy-hold",
+   "stop": 5,
+   "metrics": {
+    "startEquity": 10000,
+    "endEquity": 10801.015568737595,
+    "returnPct": 8.010155687375953,
+    "buyHoldPct": 41.5197688164981,
+    "maxDrawdownPct": 5.0416305863701245,
+    "sharpe": 3.1005725348251394,
+    "trades": 0,
+    "winRatePct": null,
+    "profitFactor": null,
+    "exposurePct": 99.93164730006835,
+    "feesPaid": 8.082364644404,
+    "candles": 1463
+   },
+   "fills": 1,
+   "lastEquity": 10801.015568737595
+  }
+ ],
+ "synthetic": [
+  {
+   "btc": {
+    "t": 1800000000000,
+    "o": 70000,
+    "h": 70239.60493973533,
+    "l": 69918.90466276596,
+    "c": 70218.78738475929,
+    "v": 6.957045462410231
+   },
+   "eth": {
+    "t": 1800000000000,
+    "o": 3000,
+    "h": 3008.03157192706,
+    "l": 2997.5367526137934,
+    "c": 3005.326508262443,
+    "v": 145.51925530421084
+   }
+  },
+  {
+   "btc": {
+    "t": 1800003600000,
+    "o": 70218.78738475929,
+    "h": 70730.68890745625,
+    "l": 70170.25993136516,
+    "c": 70539.6856296196,
+    "v": 12.244764480640491
+   },
+   "eth": {
+    "t": 1800003600000,
+    "o": 3005.326508262443,
+    "h": 3021.6806761625735,
+    "l": 2997.555843610589,
+    "c": 3019.3204648296983,
+    "v": 334.56136827604564
+   }
+  },
+  {
+   "btc": {
+    "t": 1800007200000,
+    "o": 70539.6856296196,
+    "h": 70611.51018081114,
+    "l": 70469.69251543054,
+    "c": 70597.4948000995,
+    "v": 4.738704049108542
+   },
+   "eth": {
+    "t": 1800007200000,
+    "o": 3019.3204648296983,
+    "h": 3035.150826991927,
+    "l": 3015.1370140414706,
+    "c": 3033.0530007459297,
+    "v": 286.97552165337413
+   }
+  },
+  {
+   "btc": {
+    "t": 1800010800000,
+    "o": 70597.4948000995,
+    "h": 71289.80506524752,
+    "l": 70495.80841831505,
+    "c": 71108.15941622408,
+    "v": 8.009141786305895
+   },
+   "eth": {
+    "t": 1800010800000,
+    "o": 3033.0530007459297,
+    "h": 3035.9800289759132,
+    "l": 3030.328931696885,
+    "c": 3034.032281087055,
+    "v": 189.61239825039917
+   }
+  },
+  {
+   "btc": {
+    "t": 1800014400000,
+    "o": 71108.15941622408,
+    "h": 71165.76084046043,
+    "l": 70890.33184473678,
+    "c": 70918.75048826798,
+    "v": 8.80835170104775
+   },
+   "eth": {
+    "t": 1800014400000,
+    "o": 3034.032281087055,
+    "h": 3041.8993442933443,
+    "l": 3032.320382374029,
+    "c": 3039.498537261392,
+    "v": 74.01785598632992
+   }
+  },
+  {
+   "btc": {
+    "t": 1800018000000,
+    "o": 70918.75048826798,
+    "h": 70973.48017038839,
+    "l": 70515.8815243292,
+    "c": 70528.86024508772,
+    "v": 7.614193990720715
+   },
+   "eth": {
+    "t": 1800018000000,
+    "o": 3039.498537261392,
+    "h": 3045.3697101206953,
+    "l": 3027.140189077621,
+    "c": 3029.2920517616026,
+    "v": 152.05698230537033
+   }
+  },
+  {
+   "btc": {
+    "t": 1800021600000,
+    "o": 70528.86024508772,
+    "h": 70915.4949483225,
+    "l": 70463.45633578525,
+    "c": 70736.199187491,
+    "v": 8.127855616669942
+   },
+   "eth": {
+    "t": 1800021600000,
+    "o": 3029.2920517616026,
+    "h": 3031.918139732829,
+    "l": 3008.126453043279,
+    "c": 3011.81594710197,
+    "v": 126.47206118145813
+   }
+  },
+  {
+   "btc": {
+    "t": 1800025200000,
+    "o": 70736.199187491,
+    "h": 71513.30027052743,
+    "l": 70620.64854925546,
+    "c": 71377.92258056361,
+    "v": 9.506801789877274
+   },
+   "eth": {
+    "t": 1800025200000,
+    "o": 3011.81594710197,
+    "h": 3014.6113440498543,
+    "l": 3006.4533601669036,
+    "c": 3010.239258937555,
+    "v": 78.00736464369722
+   }
+  },
+  {
+   "btc": {
+    "t": 1800028800000,
+    "o": 71377.92258056361,
+    "h": 71436.01326256225,
+    "l": 71142.15594002235,
+    "c": 71236.08458476533,
+    "v": 8.74287212012366
+   },
+   "eth": {
+    "t": 1800028800000,
+    "o": 3010.239258937555,
+    "h": 3014.551549222283,
+    "l": 2988.137687580514,
+    "c": 3000.134733845246,
+    "v": 56.13533966647522
+   }
+  },
+  {
+   "btc": {
+    "t": 1800032400000,
+    "o": 71236.08458476533,
+    "h": 71403.11974557154,
+    "l": 71140.83554268464,
+    "c": 71219.02486892817,
+    "v": 4.298623548473088
+   },
+   "eth": {
+    "t": 1800032400000,
+    "o": 3000.134733845246,
+    "h": 3001.04684201866,
+    "l": 2984.279688643323,
+    "c": 2991.3702181878557,
+    "v": 101.73099859714505
+   }
+  },
+  {
+   "btc": {
+    "t": 1800036000000,
+    "o": 71219.02486892817,
+    "h": 71959.18915649288,
+    "l": 71211.34261237616,
+    "c": 71716.09878865388,
+    "v": 9.551513534107494
+   },
+   "eth": {
+    "t": 1800036000000,
+    "o": 2991.3702181878557,
+    "h": 2998.417963764382,
+    "l": 2984.009017731683,
+    "c": 2995.950580419489,
+    "v": 87.55647979371842
+   }
+  },
+  {
+   "btc": {
+    "t": 1800039600000,
+    "o": 71716.09878865388,
+    "h": 72030.94121567826,
+    "l": 71405.82348070975,
+    "c": 71863.89039587036,
+    "v": 5.953985049086538
+   },
+   "eth": {
+    "t": 1800039600000,
+    "o": 2995.950580419489,
+    "h": 2997.9615306299524,
+    "l": 2994.41814150092,
+    "c": 2996.2025930327045,
+    "v": 172.86907840618093
+   }
+  },
+  {
+   "btc": {
+    "t": 1800043200000,
+    "o": 71863.89039587036,
+    "h": 71893.90248711628,
+    "l": 71598.24764798358,
+    "c": 71713.83029476654,
+    "v": 3.820415365599217
+   },
+   "eth": {
+    "t": 1800043200000,
+    "o": 2996.2025930327045,
+    "h": 2999.0383175848506,
+    "l": 2966.742983789212,
+    "c": 2977.2207369102907,
+    "v": 75.82411729641717
+   }
+  },
+  {
+   "btc": {
+    "t": 1800046800000,
+    "o": 71713.83029476654,
+    "h": 72262.44006287119,
+    "l": 71508.76517101223,
+    "c": 72025.03555925991,
+    "v": 4.587602829381065
+   },
+   "eth": {
+    "t": 1800046800000,
+    "o": 2977.2207369102907,
+    "h": 2988.8013083027713,
+    "l": 2974.5326181464184,
+    "c": 2979.9691652103697,
+    "v": 127.319665208642
+   }
+  },
+  {
+   "btc": {
+    "t": 1800050400000,
+    "o": 72025.03555925991,
+    "h": 72109.2334969082,
+    "l": 71594.89724199571,
+    "c": 71807.11644734752,
+    "v": 15.427166243587942
+   },
+   "eth": {
+    "t": 1800050400000,
+    "o": 2979.9691652103697,
+    "h": 2984.434930863588,
+    "l": 2968.6142065556655,
+    "c": 2969.765101686306,
+    "v": 85.8818817816263
+   }
+  },
+  {
+   "btc": {
+    "t": 1800054000000,
+    "o": 71807.11644734752,
+    "h": 72094.1526793808,
+    "l": 71712.65683707154,
+    "c": 72090.00774572644,
+    "v": 7.041214771055371
+   },
+   "eth": {
+    "t": 1800054000000,
+    "o": 2969.765101686306,
+    "h": 2977.9184309330544,
+    "l": 2965.405383132754,
+    "c": 2969.2609346755685,
+    "v": 58.88500831956135
+   }
+  },
+  {
+   "btc": {
+    "t": 1800057600000,
+    "o": 72090.00774572644,
+    "h": 72151.36010747471,
+    "l": 72020.38691937488,
+    "c": 72073.39601315222,
+    "v": 4.728013127132362
+   },
+   "eth": {
+    "t": 1800057600000,
+    "o": 2969.2609346755685,
+    "h": 2976.948587181563,
+    "l": 2964.6122597010535,
+    "c": 2966.9656407607613,
+    "v": 81.19444948306378
+   }
+  },
+  {
+   "btc": {
+    "t": 1800061200000,
+    "o": 72073.39601315222,
+    "h": 72312.17975636346,
+    "l": 72051.24519949908,
+    "c": 72295.58001589154,
+    "v": 10.535009269881995
+   },
+   "eth": {
+    "t": 1800061200000,
+    "o": 2966.9656407607613,
+    "h": 2979.6413528294465,
+    "l": 2962.040004453305,
+    "c": 2973.745649437241,
+    "v": 75.33792052610134
+   }
+  },
+  {
+   "btc": {
+    "t": 1800064800000,
+    "o": 72295.58001589154,
+    "h": 72717.8779316757,
+    "l": 72106.0979971281,
+    "c": 72516.0854981754,
+    "v": 7.858056516757013
+   },
+   "eth": {
+    "t": 1800064800000,
+    "o": 2973.745649437241,
+    "h": 2981.227353148083,
+    "l": 2973.1882831393586,
+    "c": 2979.44672530919,
+    "v": 84.84883787565332
+   }
+  },
+  {
+   "btc": {
+    "t": 1800068400000,
+    "o": 72516.0854981754,
+    "h": 72734.96322942177,
+    "l": 72108.35827973326,
+    "c": 72121.55694676368,
+    "v": 6.0932900801296945
+   },
+   "eth": {
+    "t": 1800068400000,
+    "o": 2979.44672530919,
+    "h": 2981.6971045844593,
+    "l": 2963.8988227943296,
+    "c": 2967.9194199651006,
+    "v": 257.1880891856763
+   }
+  }
+ ],
+ "stats": [
+  {
+   "symbol": "BTC-USD",
+   "strategy": "sma-cross",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9842.817593864474,
+    "returnPct": -1.5718240613552537,
+    "maxDrawdownPct": 5.746683943799491,
+    "feesPaid": 414.5545146760229,
+    "realized": -144.65618751357192,
+    "trades": 25,
+    "wins": 5,
+    "losses": 20,
+    "winRatePct": 20,
+    "avgWin": 115.1909129400447,
+    "avgLoss": 36.03053761068977,
+    "expectancy": -5.786247500542877,
+    "profitFactor": 0.7992589104878435,
+    "best": 405.5061612246045,
+    "worst": -67.24563716235025,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 25,
+      "realized": -144.65618751357192,
+      "fees": 414.5545146760229,
+      "winRatePct": 20
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 25,
+      "realized": -144.65618751357192,
+      "fees": 414.5545146760229,
+      "winRatePct": 20
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "sma-cross",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9842.817593864474,
+    "returnPct": -1.5718240613552537,
+    "maxDrawdownPct": 5.746683943799491,
+    "feesPaid": 414.5545146760229,
+    "realized": -144.65618751357192,
+    "trades": 25,
+    "wins": 5,
+    "losses": 20,
+    "winRatePct": 20,
+    "avgWin": 115.1909129400447,
+    "avgLoss": 36.03053761068977,
+    "expectancy": -5.786247500542877,
+    "profitFactor": 0.7992589104878435,
+    "best": 405.5061612246045,
+    "worst": -67.24563716235025,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 25,
+      "realized": -144.65618751357192,
+      "fees": 414.5545146760229,
+      "winRatePct": 20
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 25,
+      "realized": -144.65618751357192,
+      "fees": 414.5545146760229,
+      "winRatePct": 20
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "rsi-revert",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9913.885123401877,
+    "returnPct": -0.8611487659812345,
+    "maxDrawdownPct": 1.510121499611321,
+    "feesPaid": 143.760721004924,
+    "realized": -86.11487659812337,
+    "trades": 9,
+    "wins": 3,
+    "losses": 6,
+    "winRatePct": 33.33333333333333,
+    "avgWin": 14.593520641675772,
+    "avgLoss": 21.64923975385845,
+    "expectancy": -9.568319622013709,
+    "profitFactor": 0.3370446446987782,
+    "best": 27.64942600878112,
+    "worst": -62.62729276543473,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 9,
+      "realized": -86.11487659812337,
+      "fees": 143.760721004924,
+      "winRatePct": 33.33333333333333
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 9,
+      "realized": -86.11487659812337,
+      "fees": 143.760721004924,
+      "winRatePct": 33.33333333333333
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "rsi-revert",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9913.885123401877,
+    "returnPct": -0.8611487659812345,
+    "maxDrawdownPct": 1.510121499611321,
+    "feesPaid": 143.760721004924,
+    "realized": -86.11487659812337,
+    "trades": 9,
+    "wins": 3,
+    "losses": 6,
+    "winRatePct": 33.33333333333333,
+    "avgWin": 14.593520641675772,
+    "avgLoss": 21.64923975385845,
+    "expectancy": -9.568319622013709,
+    "profitFactor": 0.3370446446987782,
+    "best": 27.64942600878112,
+    "worst": -62.62729276543473,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 9,
+      "realized": -86.11487659812337,
+      "fees": 143.760721004924,
+      "winRatePct": 33.33333333333333
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 9,
+      "realized": -86.11487659812337,
+      "fees": 143.760721004924,
+      "winRatePct": 33.33333333333333
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "donchian",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10000.659328333475,
+    "returnPct": 0.006593283334743738,
+    "maxDrawdownPct": 4.258066437600385,
+    "feesPaid": 212.16608328812327,
+    "realized": 0.6593283334755142,
+    "trades": 13,
+    "wins": 4,
+    "losses": 9,
+    "winRatePct": 30.76923076923077,
+    "avgWin": 107.99982525297435,
+    "avgLoss": 47.926663630935764,
+    "expectancy": 0.0507175641135011,
+    "profitFactor": 1.0015285583883669,
+    "best": 373.26908034289795,
+    "worst": -66.90289942088043,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 13,
+      "realized": 0.6593283334755142,
+      "fees": 212.16608328812327,
+      "winRatePct": 30.76923076923077
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 13,
+      "realized": 0.6593283334755142,
+      "fees": 212.16608328812327,
+      "winRatePct": 30.76923076923077
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "donchian",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10000.659328333475,
+    "returnPct": 0.006593283334743738,
+    "maxDrawdownPct": 4.258066437600385,
+    "feesPaid": 212.16608328812327,
+    "realized": 0.6593283334755142,
+    "trades": 13,
+    "wins": 4,
+    "losses": 9,
+    "winRatePct": 30.76923076923077,
+    "avgWin": 107.99982525297435,
+    "avgLoss": 47.926663630935764,
+    "expectancy": 0.0507175641135011,
+    "profitFactor": 1.0015285583883669,
+    "best": 373.26908034289795,
+    "worst": -66.90289942088043,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 13,
+      "realized": 0.6593283334755142,
+      "fees": 212.16608328812327,
+      "winRatePct": 30.76923076923077
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 13,
+      "realized": 0.6593283334755142,
+      "fees": 212.16608328812327,
+      "winRatePct": 30.76923076923077
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "atr-break",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9783.861772788276,
+    "returnPct": -2.1613822721172404,
+    "maxDrawdownPct": 5.6276083012383245,
+    "feesPaid": 460.6871211620292,
+    "realized": -190.51771849732927,
+    "trades": 28,
+    "wins": 5,
+    "losses": 23,
+    "winRatePct": 17.857142857142858,
+    "avgWin": 104.12790148732002,
+    "avgLoss": 30.91987938843171,
+    "expectancy": -6.804204232047474,
+    "profitFactor": 0.7321018312833265,
+    "best": 363.92785349198016,
+    "worst": -59.16249013628817,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 28,
+      "realized": -190.51771849732927,
+      "fees": 460.6871211620292,
+      "winRatePct": 17.857142857142858
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 28,
+      "realized": -190.51771849732927,
+      "fees": 460.6871211620292,
+      "winRatePct": 17.857142857142858
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "atr-break",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9783.861772788276,
+    "returnPct": -2.1613822721172404,
+    "maxDrawdownPct": 5.6276083012383245,
+    "feesPaid": 460.6871211620292,
+    "realized": -190.51771849732927,
+    "trades": 28,
+    "wins": 5,
+    "losses": 23,
+    "winRatePct": 17.857142857142858,
+    "avgWin": 104.12790148732002,
+    "avgLoss": 30.91987938843171,
+    "expectancy": -6.804204232047474,
+    "profitFactor": 0.7321018312833265,
+    "best": 363.92785349198016,
+    "worst": -59.16249013628817,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 28,
+      "realized": -190.51771849732927,
+      "fees": 460.6871211620292,
+      "winRatePct": 17.857142857142858
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 28,
+      "realized": -190.51771849732927,
+      "fees": 460.6871211620292,
+      "winRatePct": 17.857142857142858
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "bollinger",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9488.63038655513,
+    "returnPct": -5.113696134448686,
+    "maxDrawdownPct": 5.3652742552517525,
+    "feesPaid": 359.55260734506885,
+    "realized": -511.3696134448687,
+    "trades": 23,
+    "wins": 2,
+    "losses": 21,
+    "winRatePct": 8.695652173913043,
+    "avgWin": 5.564693308975507,
+    "avgLoss": 24.88090476489618,
+    "expectancy": -22.233461454124726,
+    "profitFactor": 0.021300302233330463,
+    "best": 5.953649013783888,
+    "worst": -76.21480763984619,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 23,
+      "realized": -511.3696134448687,
+      "fees": 359.55260734506885,
+      "winRatePct": 8.695652173913043
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 23,
+      "realized": -511.3696134448687,
+      "fees": 359.55260734506885,
+      "winRatePct": 8.695652173913043
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "bollinger",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9488.63038655513,
+    "returnPct": -5.113696134448686,
+    "maxDrawdownPct": 5.3652742552517525,
+    "feesPaid": 359.55260734506885,
+    "realized": -511.3696134448687,
+    "trades": 23,
+    "wins": 2,
+    "losses": 21,
+    "winRatePct": 8.695652173913043,
+    "avgWin": 5.564693308975507,
+    "avgLoss": 24.88090476489618,
+    "expectancy": -22.233461454124726,
+    "profitFactor": 0.021300302233330463,
+    "best": 5.953649013783888,
+    "worst": -76.21480763984619,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 23,
+      "realized": -511.3696134448687,
+      "fees": 359.55260734506885,
+      "winRatePct": 8.695652173913043
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 23,
+      "realized": -511.3696134448687,
+      "fees": 359.55260734506885,
+      "winRatePct": 8.695652173913043
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "dca",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 11228.528116607753,
+    "returnPct": 12.285281166077521,
+    "maxDrawdownPct": 3.5968718226256455,
+    "feesPaid": 16.014601016148,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.014601016148,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.014601016148,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "dca",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 11228.528116607753,
+    "returnPct": 12.285281166077521,
+    "maxDrawdownPct": 3.5968718226256455,
+    "feesPaid": 16.014601016148,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.014601016148,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.014601016148,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "buy-hold",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10612.907603612257,
+    "returnPct": 6.1290760361225605,
+    "maxDrawdownPct": 1.9138225056090556,
+    "feesPaid": 8.0055882197424,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.0055882197424,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.0055882197424,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "BTC-USD",
+   "strategy": "buy-hold",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10612.907603612257,
+    "returnPct": 6.1290760361225605,
+    "maxDrawdownPct": 1.9138225056090556,
+    "feesPaid": 8.0055882197424,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.0055882197424,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "BTC-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.0055882197424,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "sma-cross",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9775.714641366161,
+    "returnPct": -2.242853586338389,
+    "maxDrawdownPct": 7.6883906098890495,
+    "feesPaid": 358.53940949384014,
+    "realized": -224.2853586338399,
+    "trades": 22,
+    "wins": 3,
+    "losses": 19,
+    "winRatePct": 13.636363636363635,
+    "avgWin": 222.05460546012,
+    "avgLoss": 46.86574605337894,
+    "expectancy": -10.194789028810904,
+    "profitFactor": 0.7481211000838276,
+    "best": 542.0833730611196,
+    "worst": -108.25155355335983,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 22,
+      "realized": -224.2853586338399,
+      "fees": 358.53940949384014,
+      "winRatePct": 13.636363636363635
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 22,
+      "realized": -224.2853586338399,
+      "fees": 358.53940949384014,
+      "winRatePct": 13.636363636363635
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "sma-cross",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9775.714641366161,
+    "returnPct": -2.242853586338389,
+    "maxDrawdownPct": 7.6883906098890495,
+    "feesPaid": 358.53940949384014,
+    "realized": -224.2853586338399,
+    "trades": 22,
+    "wins": 3,
+    "losses": 19,
+    "winRatePct": 13.636363636363635,
+    "avgWin": 222.05460546012,
+    "avgLoss": 46.86574605337894,
+    "expectancy": -10.194789028810904,
+    "profitFactor": 0.7481211000838276,
+    "best": 542.0833730611196,
+    "worst": -108.25155355335983,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 22,
+      "realized": -224.2853586338399,
+      "fees": 358.53940949384014,
+      "winRatePct": 13.636363636363635
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 22,
+      "realized": -224.2853586338399,
+      "fees": 358.53940949384014,
+      "winRatePct": 13.636363636363635
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "rsi-revert",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9908.756168676717,
+    "returnPct": -0.9124383132328329,
+    "maxDrawdownPct": 2.045166393688549,
+    "feesPaid": 176.48775934328,
+    "realized": -91.2438313232808,
+    "trades": 11,
+    "wins": 7,
+    "losses": 4,
+    "winRatePct": 63.63636363636363,
+    "avgWin": 11.913210594365637,
+    "avgLoss": 43.659076370960065,
+    "expectancy": -8.29489375666189,
+    "profitFactor": 0.47752083353753766,
+    "best": 24.17077233027976,
+    "worst": -137.24231219064018,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 11,
+      "realized": -91.2438313232808,
+      "fees": 176.48775934328,
+      "winRatePct": 63.63636363636363
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 11,
+      "realized": -91.2438313232808,
+      "fees": 176.48775934328,
+      "winRatePct": 63.63636363636363
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "rsi-revert",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9854.29326345952,
+    "returnPct": -1.457067365404796,
+    "maxDrawdownPct": 2.521210646018025,
+    "feesPaid": 207.85482946047998,
+    "realized": -145.7067365404805,
+    "trades": 13,
+    "wins": 8,
+    "losses": 5,
+    "winRatePct": 61.53846153846154,
+    "avgWin": 16.533016231284932,
+    "avgLoss": 55.59417327815199,
+    "expectancy": -11.208210503113886,
+    "profitFactor": 0.4758201158546882,
+    "best": 48.897721245160255,
+    "worst": -123.91918971660016,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 13,
+      "realized": -145.7067365404805,
+      "fees": 207.85482946047998,
+      "winRatePct": 61.53846153846154
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 13,
+      "realized": -145.7067365404805,
+      "fees": 207.85482946047998,
+      "winRatePct": 61.53846153846154
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "donchian",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9695.059611134198,
+    "returnPct": -3.04940388865802,
+    "maxDrawdownPct": 8.490533287021627,
+    "feesPaid": 224.72407259579998,
+    "realized": -304.9403888658005,
+    "trades": 14,
+    "wins": 2,
+    "losses": 12,
+    "winRatePct": 14.285714285714285,
+    "avgWin": 261.8218509610398,
+    "avgLoss": 69.04867423232334,
+    "expectancy": -21.781456347557178,
+    "profitFactor": 0.631974120362557,
+    "best": 488.73761965887957,
+    "worst": -124.14546665028001,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 14,
+      "realized": -304.9403888658005,
+      "fees": 224.72407259579998,
+      "winRatePct": 14.285714285714285
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 14,
+      "realized": -304.9403888658005,
+      "fees": 224.72407259579998,
+      "winRatePct": 14.285714285714285
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "donchian",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9669.715786018598,
+    "returnPct": -3.3028421398140217,
+    "maxDrawdownPct": 8.729747898774207,
+    "feesPaid": 224.25850293140005,
+    "realized": -330.28421398140085,
+    "trades": 14,
+    "wins": 2,
+    "losses": 12,
+    "winRatePct": 14.285714285714285,
+    "avgWin": 261.7840153597997,
+    "avgLoss": 71.15435372508335,
+    "expectancy": -23.59172957010006,
+    "profitFactor": 0.6131834096225174,
+    "best": 488.73761965887957,
+    "worst": -132.89505201000043,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 14,
+      "realized": -330.28421398140085,
+      "fees": 224.25850293140005,
+      "winRatePct": 14.285714285714285
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 14,
+      "realized": -330.28421398140085,
+      "fees": 224.25850293140005,
+      "winRatePct": 14.285714285714285
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "atr-break",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9845.902949316844,
+    "returnPct": -1.5409705068315627,
+    "maxDrawdownPct": 6.835313597990178,
+    "feesPaid": 441.67015671316,
+    "realized": -154.09705068315884,
+    "trades": 27,
+    "wins": 3,
+    "losses": 24,
+    "winRatePct": 11.11111111111111,
+    "avgWin": 233.1378745065067,
+    "avgLoss": 35.56294475844496,
+    "expectancy": -5.707298173450328,
+    "profitFactor": 0.81945503982465,
+    "best": 520.2235599395999,
+    "worst": -61.157526721200156,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 27,
+      "realized": -154.09705068315884,
+      "fees": 441.67015671316,
+      "winRatePct": 11.11111111111111
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 27,
+      "realized": -154.09705068315884,
+      "fees": 441.67015671316,
+      "winRatePct": 11.11111111111111
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "atr-break",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9845.902949316844,
+    "returnPct": -1.5409705068315627,
+    "maxDrawdownPct": 6.835313597990178,
+    "feesPaid": 441.67015671316,
+    "realized": -154.09705068315884,
+    "trades": 27,
+    "wins": 3,
+    "losses": 24,
+    "winRatePct": 11.11111111111111,
+    "avgWin": 233.1378745065067,
+    "avgLoss": 35.56294475844496,
+    "expectancy": -5.707298173450328,
+    "profitFactor": 0.81945503982465,
+    "best": 520.2235599395999,
+    "worst": -61.157526721200156,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 27,
+      "realized": -154.09705068315884,
+      "fees": 441.67015671316,
+      "winRatePct": 11.11111111111111
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 27,
+      "realized": -154.09705068315884,
+      "fees": 441.67015671316,
+      "winRatePct": 11.11111111111111
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "bollinger",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9549.450129714913,
+    "returnPct": -4.505498702850874,
+    "maxDrawdownPct": 5.095678310220465,
+    "feesPaid": 361.90171585508,
+    "realized": -450.5498702850805,
+    "trades": 23,
+    "wins": 4,
+    "losses": 19,
+    "winRatePct": 17.391304347826086,
+    "avgWin": 14.052069668279898,
+    "avgLoss": 26.671481524115794,
+    "expectancy": -19.5891247950035,
+    "profitFactor": 0.1109173651941726,
+    "best": 22.60672694111986,
+    "worst": -78.08306795608019,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 23,
+      "realized": -450.5498702850805,
+      "fees": 361.90171585508,
+      "winRatePct": 17.391304347826086
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 23,
+      "realized": -450.5498702850805,
+      "fees": 361.90171585508,
+      "winRatePct": 17.391304347826086
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "bollinger",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9531.200647349553,
+    "returnPct": -4.687993526504474,
+    "maxDrawdownPct": 5.277196138694872,
+    "feesPaid": 377.09906384044007,
+    "realized": -468.79935265044037,
+    "trades": 24,
+    "wins": 5,
+    "losses": 19,
+    "winRatePct": 20.833333333333336,
+    "avgWin": 18.382023483951933,
+    "avgLoss": 29.511024740536843,
+    "expectancy": -19.533306360435017,
+    "profitFactor": 0.1639175407689345,
+    "best": 35.70183874664008,
+    "worst": -122.56203382631998,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 24,
+      "realized": -468.79935265044037,
+      "fees": 377.09906384044007,
+      "winRatePct": 20.833333333333336
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 24,
+      "realized": -468.79935265044037,
+      "fees": 377.09906384044007,
+      "winRatePct": 20.833333333333336
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "dca",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 11277.929169556199,
+    "returnPct": 12.779291695561978,
+    "maxDrawdownPct": 6.61719528684221,
+    "feesPaid": 16.0813537538,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.0813537538,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.0813537538,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "dca",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 11277.929169556199,
+    "returnPct": 12.779291695561978,
+    "maxDrawdownPct": 6.61719528684221,
+    "feesPaid": 16.0813537538,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.0813537538,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.0813537538,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "buy-hold",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10631.86279977788,
+    "returnPct": 6.318627997778803,
+    "maxDrawdownPct": 3.5978437164991393,
+    "feesPaid": 8.08240337212,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.08240337212,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.08240337212,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "buy-hold",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10631.86279977788,
+    "returnPct": 6.318627997778803,
+    "maxDrawdownPct": 3.5978437164991393,
+    "feesPaid": 8.08240337212,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.08240337212,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "ETH-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.08240337212,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "sma-cross",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9802.498563482077,
+    "returnPct": -1.9750143651792285,
+    "maxDrawdownPct": 7.194507643195104,
+    "feesPaid": 329.63536525092405,
+    "realized": -197.50143651792519,
+    "trades": 20,
+    "wins": 6,
+    "losses": 14,
+    "winRatePct": 30,
+    "avgWin": 113.3004842456113,
+    "avgLoss": 62.664595856542356,
+    "expectancy": -9.87507182589626,
+    "profitFactor": 0.7748769417126425,
+    "best": 455.91080294361586,
+    "worst": -125.65491032766795,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 20,
+      "realized": -197.50143651792519,
+      "fees": 329.63536525092405,
+      "winRatePct": 30
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 20,
+      "realized": -197.50143651792519,
+      "fees": 329.63536525092405,
+      "winRatePct": 30
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "sma-cross",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9807.909258036072,
+    "returnPct": -1.920907419639284,
+    "maxDrawdownPct": 7.143281706376663,
+    "feesPaid": 329.65709494792804,
+    "realized": -192.0907419639293,
+    "trades": 20,
+    "wins": 6,
+    "losses": 14,
+    "winRatePct": 30,
+    "avgWin": 113.3004842456113,
+    "avgLoss": 62.27811767411408,
+    "expectancy": -9.604537098196465,
+    "profitFactor": 0.7796855814600053,
+    "best": 455.91080294361586,
+    "worst": -120.24421577367207,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 20,
+      "realized": -192.0907419639293,
+      "fees": 329.65709494792804,
+      "winRatePct": 30
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 20,
+      "realized": -192.0907419639293,
+      "fees": 329.65709494792804,
+      "winRatePct": 30
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "rsi-revert",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9756.934272962377,
+    "returnPct": -2.4306572703762352,
+    "maxDrawdownPct": 3.3230561016262254,
+    "feesPaid": 183.981621854624,
+    "realized": -229.96518883012413,
+    "trades": 11,
+    "wins": 4,
+    "losses": 7,
+    "winRatePct": 36.36363636363637,
+    "avgWin": 25.93337913052011,
+    "avgLoss": 47.67124362174351,
+    "expectancy": -20.905926257284012,
+    "profitFactor": 0.31085981113589933,
+    "best": 34.19239880828786,
+    "worst": -181.0869122926083,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 11,
+      "realized": -229.96518883012413,
+      "fees": 183.981621854624,
+      "winRatePct": 36.36363636363637
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 11,
+      "realized": -229.96518883012413,
+      "fees": 183.981621854624,
+      "winRatePct": 36.36363636363637
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "rsi-revert",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9660.885401700858,
+    "returnPct": -3.391145982991417,
+    "maxDrawdownPct": 4.055152228855586,
+    "feesPaid": 230.290131866144,
+    "realized": -405.51522288555975,
+    "trades": 14,
+    "wins": 5,
+    "losses": 9,
+    "winRatePct": 35.714285714285715,
+    "avgWin": 23.56362898095449,
+    "avgLoss": 58.14815197670358,
+    "expectancy": -28.96537306325427,
+    "profitFactor": 0.22513019837094547,
+    "best": 34.19239880828786,
+    "worst": -130.2091776739519,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 14,
+      "realized": -405.51522288555975,
+      "fees": 230.290131866144,
+      "winRatePct": 35.714285714285715
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 14,
+      "realized": -405.51522288555975,
+      "fees": 230.290131866144,
+      "winRatePct": 35.714285714285715
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "donchian",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10275.807944270548,
+    "returnPct": 2.7580794427054744,
+    "maxDrawdownPct": 5.398730073890954,
+    "feesPaid": 169.88553119845201,
+    "realized": 275.807944270548,
+    "trades": 10,
+    "wins": 2,
+    "losses": 8,
+    "winRatePct": 20,
+    "avgWin": 400.71671584677597,
+    "avgLoss": 65.7031859278755,
+    "expectancy": 27.580794427054798,
+    "profitFactor": 1.5247233075069435,
+    "best": 649.1594087579683,
+    "worst": -117.20156144307589,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 10,
+      "realized": 275.807944270548,
+      "fees": 169.88553119845201,
+      "winRatePct": 20
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 10,
+      "realized": 275.807944270548,
+      "fees": 169.88553119845201,
+      "winRatePct": 20
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "donchian",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10229.555557656684,
+    "returnPct": 2.2955555765668434,
+    "maxDrawdownPct": 5.824539366407414,
+    "feesPaid": 169.624419130316,
+    "realized": 229.5555576566844,
+    "trades": 10,
+    "wins": 2,
+    "losses": 8,
+    "winRatePct": 20,
+    "avgWin": 400.71671584677597,
+    "avgLoss": 71.48473425460844,
+    "expectancy": 22.955555765668443,
+    "profitFactor": 1.401406608086197,
+    "best": 649.1594087579683,
+    "worst": -123.91634480940002,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 10,
+      "realized": 229.5555576566844,
+      "fees": 169.624419130316,
+      "winRatePct": 20
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 10,
+      "realized": 229.5555576566844,
+      "fees": 169.624419130316,
+      "winRatePct": 20
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "atr-break",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9922.408358307837,
+    "returnPct": -0.7759164169216293,
+    "maxDrawdownPct": 5.403503081821551,
+    "feesPaid": 426.339459781164,
+    "realized": -77.59164169216479,
+    "trades": 26,
+    "wins": 7,
+    "losses": 19,
+    "winRatePct": 26.923076923076923,
+    "avgWin": 123.58469571853308,
+    "avgLoss": 49.61497430115244,
+    "expectancy": -2.984293911237107,
+    "profitFactor": 0.9176907642723048,
+    "best": 376.9209477446402,
+    "worst": -76.33159502436024,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 26,
+      "realized": -77.59164169216479,
+      "fees": 426.339459781164,
+      "winRatePct": 26.923076923076923
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 26,
+      "realized": -77.59164169216479,
+      "fees": 426.339459781164,
+      "winRatePct": 26.923076923076923
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "atr-break",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9922.408358307837,
+    "returnPct": -0.7759164169216293,
+    "maxDrawdownPct": 5.403503081821551,
+    "feesPaid": 426.339459781164,
+    "realized": -77.59164169216479,
+    "trades": 26,
+    "wins": 7,
+    "losses": 19,
+    "winRatePct": 26.923076923076923,
+    "avgWin": 123.58469571853308,
+    "avgLoss": 49.61497430115244,
+    "expectancy": -2.984293911237107,
+    "profitFactor": 0.9176907642723048,
+    "best": 376.9209477446402,
+    "worst": -76.33159502436024,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 26,
+      "realized": -77.59164169216479,
+      "fees": 426.339459781164,
+      "winRatePct": 26.923076923076923
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 26,
+      "realized": -77.59164169216479,
+      "fees": 426.339459781164,
+      "winRatePct": 26.923076923076923
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "bollinger",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9297.773941464684,
+    "returnPct": -7.022260585353157,
+    "maxDrawdownPct": 7.795064832091354,
+    "feesPaid": 375.161877174316,
+    "realized": -702.2260585353163,
+    "trades": 24,
+    "wins": 6,
+    "losses": 18,
+    "winRatePct": 25,
+    "avgWin": 7.84548369327058,
+    "avgLoss": 41.62772003860776,
+    "expectancy": -29.259419105638177,
+    "profitFactor": 0.06282259102023252,
+    "best": 13.905198360359691,
+    "worst": -176.13064567121592,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 24,
+      "realized": -702.2260585353163,
+      "fees": 375.161877174316,
+      "winRatePct": 25
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 24,
+      "realized": -702.2260585353163,
+      "fees": 375.161877174316,
+      "winRatePct": 25
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "bollinger",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 9269.662534927631,
+    "returnPct": -7.303374650723693,
+    "maxDrawdownPct": 7.873554227629165,
+    "feesPaid": 420.04343532036813,
+    "realized": -730.3374650723683,
+    "trades": 27,
+    "wins": 8,
+    "losses": 19,
+    "winRatePct": 29.629629629629626,
+    "avgWin": 12.855113481809923,
+    "avgLoss": 43.85149331193935,
+    "expectancy": -27.04953574342105,
+    "profitFactor": 0.12343204192064251,
+    "best": 46.259892580608266,
+    "worst": -116.96111179179616,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 27,
+      "realized": -730.3374650723683,
+      "fees": 420.04343532036813,
+      "winRatePct": 29.629629629629626
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 27,
+      "realized": -730.3374650723683,
+      "fees": 420.04343532036813,
+      "winRatePct": 29.629629629629626
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "dca",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 11643.935983039933,
+    "returnPct": 16.439359830399326,
+    "maxDrawdownPct": 9.087215005329034,
+    "feesPaid": 16.092060498068,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.092060498068,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.092060498068,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "dca",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 11643.935983039933,
+    "returnPct": 16.439359830399326,
+    "maxDrawdownPct": 9.087215005329034,
+    "feesPaid": 16.092060498068,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.092060498068,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 16.092060498068,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "buy-hold",
+   "stop": 0,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10801.015568737595,
+    "returnPct": 8.010155687375953,
+    "maxDrawdownPct": 5.0416305863701245,
+    "feesPaid": 8.082364644404,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.082364644404,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.082364644404,
+      "winRatePct": null
+     }
+    ]
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "buy-hold",
+   "stop": 5,
+   "stats": {
+    "startCash": 10000,
+    "equity": 10801.015568737595,
+    "returnPct": 8.010155687375953,
+    "maxDrawdownPct": 5.0416305863701245,
+    "feesPaid": 8.082364644404,
+    "realized": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "expectancy": null,
+    "profitFactor": null,
+    "best": null,
+    "worst": null,
+    "bySource": [
+     {
+      "key": "bot1",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.082364644404,
+      "winRatePct": null
+     }
+    ],
+    "bySymbol": [
+     {
+      "key": "SOL-USD",
+      "trades": 0,
+      "realized": 0,
+      "fees": 8.082364644404,
+      "winRatePct": null
+     }
+    ]
+   }
+  }
+ ],
+ "sweeps": [
+  {
+   "symbol": "BTC-USD",
+   "strategy": "sma-cross",
+   "result": {
+    "rows": [
+     {
+      "kind": "window",
+      "label": "Slice 1 of 4",
+      "returnPct": 3.2720706090299867,
+      "buyHoldPct": 22.729881459632175,
+      "maxDrawdownPct": 1.0912114073274783,
+      "trades": 4
+     },
+     {
+      "kind": "window",
+      "label": "Slice 2 of 4",
+      "returnPct": -1.9015999377915094,
+      "buyHoldPct": -0.8266943239171098,
+      "maxDrawdownPct": 2.471657936493999,
+      "trades": 7
+     },
+     {
+      "kind": "window",
+      "label": "Slice 3 of 4",
+      "returnPct": 0.15197488945155602,
+      "buyHoldPct": 8.36661159241805,
+      "maxDrawdownPct": 1.8698393163672073,
+      "trades": 5
+     },
+     {
+      "kind": "window",
+      "label": "Slice 4 of 4",
+      "returnPct": -1.139013780814635,
+      "buyHoldPct": -0.5723148568440584,
+      "maxDrawdownPct": 1.7726088482904894,
+      "trades": 4
+     },
+     {
+      "kind": "param",
+      "label": "Fast average (candles) -20% (10)",
+      "returnPct": -1.7286655330514211,
+      "buyHoldPct": 31.143849262894243,
+      "maxDrawdownPct": 5.640299492241008,
+      "trades": 26
+     },
+     {
+      "kind": "param",
+      "label": "Fast average (candles) +25% (15)",
+      "returnPct": -0.9367124602023047,
+      "buyHoldPct": 31.143849262894243,
+      "maxDrawdownPct": 5.212129734930687,
+      "trades": 22
+     },
+     {
+      "kind": "param",
+      "label": "Slow average (candles) -20% (38)",
+      "returnPct": -0.533623139445516,
+      "buyHoldPct": 31.143849262894243,
+      "maxDrawdownPct": 4.137402666439011,
+      "trades": 24
+     },
+     {
+      "kind": "param",
+      "label": "Slow average (candles) +25% (60)",
+      "returnPct": -2.416643054502543,
+      "buyHoldPct": 31.143849262894243,
+      "maxDrawdownPct": 3.18055078437453,
+      "trades": 14
+     },
+     {
+      "kind": "cost",
+      "label": "Fees and spread x2",
+      "returnPct": -5.800930421551165,
+      "buyHoldPct": 31.143849262894243,
+      "maxDrawdownPct": 9.565958252911411,
+      "trades": 25
+     },
+     {
+      "kind": "cost",
+      "label": "Fees and spread x3",
+      "returnPct": -9.855655059727454,
+      "buyHoldPct": 31.143849262894243,
+      "maxDrawdownPct": 13.23716044089208,
+      "trades": 25
+     }
+    ],
+    "summary": {
+     "windows": 4,
+     "windowsProfitable": 2,
+     "worstWindowPct": -1.9015999377915094,
+     "medianWindowPct": -0.4935194456815395,
+     "paramBestPct": -0.533623139445516,
+     "paramWorstPct": -2.416643054502543,
+     "baseReturnPct": -1.5718240613552537,
+     "costDoubledPct": -5.800930421551165,
+     "verdict": [
+      "It lost money (or made nothing) over the full history with these settings."
+     ]
+    }
+   }
+  },
+  {
+   "symbol": "ETH-USD",
+   "strategy": "bollinger",
+   "result": {
+    "rows": [
+     {
+      "kind": "window",
+      "label": "Slice 1 of 4",
+      "returnPct": -0.7248120164764282,
+      "buyHoldPct": 29.562911096965827,
+      "maxDrawdownPct": 0.8759617664764118,
+      "trades": 3
+     },
+     {
+      "kind": "window",
+      "label": "Slice 2 of 4",
+      "returnPct": -0.5795520499112028,
+      "buyHoldPct": 2.8286359988864085,
+      "maxDrawdownPct": 1.199196296503029,
+      "trades": 8
+     },
+     {
+      "kind": "window",
+      "label": "Slice 3 of 4",
+      "returnPct": -1.1184184220364157,
+      "buyHoldPct": 7.110180322581927,
+      "maxDrawdownPct": 1.382587202420891,
+      "trades": 6
+     },
+     {
+      "kind": "window",
+      "label": "Slice 4 of 4",
+      "returnPct": -2.0004988933812085,
+      "buyHoldPct": -6.8192209472193515,
+      "maxDrawdownPct": 2.6347418022305487,
+      "trades": 5
+     },
+     {
+      "kind": "param",
+      "label": "Window (candles) -20% (16)",
+      "returnPct": -6.5153093338092045,
+      "buyHoldPct": 32.96944621260343,
+      "maxDrawdownPct": 6.981587237105195,
+      "trades": 27
+     },
+     {
+      "kind": "param",
+      "label": "Window (candles) +25% (25)",
+      "returnPct": -5.066444640783629,
+      "buyHoldPct": 32.96944621260343,
+      "maxDrawdownPct": 5.84913228008869,
+      "trades": 23
+     },
+     {
+      "kind": "param",
+      "label": "Band width (std. deviations) -20% (1.6)",
+      "returnPct": -7.788982067444361,
+      "buyHoldPct": 32.96944621260343,
+      "maxDrawdownPct": 8.35996650963476,
+      "trades": 31
+     },
+     {
+      "kind": "param",
+      "label": "Band width (std. deviations) +25% (2.5)",
+      "returnPct": -2.957383093040422,
+      "buyHoldPct": 32.96944621260343,
+      "maxDrawdownPct": 3.7629802354945223,
+      "trades": 17
+     },
+     {
+      "kind": "cost",
+      "label": "Fees and spread x2",
+      "returnPct": -8.531268765444732,
+      "buyHoldPct": 32.96944621260343,
+      "maxDrawdownPct": 9.021606406926331,
+      "trades": 24
+     },
+     {
+      "kind": "cost",
+      "label": "Fees and spread x3",
+      "returnPct": -12.225964840632408,
+      "buyHoldPct": 32.96944621260343,
+      "maxDrawdownPct": 12.62413146553241,
+      "trades": 24
+     }
+    ],
+    "summary": {
+     "windows": 4,
+     "windowsProfitable": 0,
+     "worstWindowPct": -2.0004988933812085,
+     "medianWindowPct": -0.921615219256422,
+     "paramBestPct": -2.957383093040422,
+     "paramWorstPct": -7.788982067444361,
+     "baseReturnPct": -4.687993526504474,
+     "costDoubledPct": -8.531268765444732,
+     "verdict": [
+      "It lost money (or made nothing) over the full history with these settings.",
+      "Lost money in 4 of 4 slices of history. It works only in some conditions."
+     ]
+    }
+   }
+  },
+  {
+   "symbol": "SOL-USD",
+   "strategy": "rsi-revert",
+   "result": {
+    "rows": [
+     {
+      "kind": "window",
+      "label": "Slice 1 of 4",
+      "returnPct": -0.7367289177587222,
+      "buyHoldPct": 36.55983186654408,
+      "maxDrawdownPct": 0.7367289177587191,
+      "trades": 2
+     },
+     {
+      "kind": "window",
+      "label": "Slice 2 of 4",
+      "returnPct": 0.5783049706883148,
+      "buyHoldPct": -2.6807614247376432,
+      "maxDrawdownPct": 0.6497113909306846,
+      "trades": 3
+     },
+     {
+      "kind": "window",
+      "label": "Slice 3 of 4",
+      "returnPct": 0.11723895858890554,
+      "buyHoldPct": 18.620028465248684,
+      "maxDrawdownPct": 0.7593334621915433,
+      "trades": 3
+     },
+     {
+      "kind": "window",
+      "label": "Slice 4 of 4",
+      "returnPct": -2.9187932285651863,
+      "buyHoldPct": -10.228721409823772,
+      "maxDrawdownPct": 3.5852980508051955,
+      "trades": 4
+     },
+     {
+      "kind": "param",
+      "label": "RSI period (candles) -20% (11)",
+      "returnPct": -4.480036066755655,
+      "buyHoldPct": 41.5197688164981,
+      "maxDrawdownPct": 5.138398070601888,
+      "trades": 16
+     },
+     {
+      "kind": "param",
+      "label": "RSI period (candles) +25% (18)",
+      "returnPct": -0.5405364801566614,
+      "buyHoldPct": 41.5197688164981,
+      "maxDrawdownPct": 2.3028299683893074,
+      "trades": 6
+     },
+     {
+      "kind": "param",
+      "label": "Buy below RSI -20% (24)",
+      "returnPct": -0.9811785447129351,
+      "buyHoldPct": 41.5197688164981,
+      "maxDrawdownPct": 2.1585784660460012,
+      "trades": 2
+     },
+     {
+      "kind": "param",
+      "label": "Buy below RSI +25% (38)",
+      "returnPct": -5.31624310372838,
+      "buyHoldPct": 41.5197688164981,
+      "maxDrawdownPct": 5.970300581260944,
+      "trades": 21
+     },
+     {
+      "kind": "param",
+      "label": "Sell above RSI -20% (44)",
+      "returnPct": -5.357637613403909,
+      "buyHoldPct": 41.5197688164981,
+      "maxDrawdownPct": 5.740156911762151,
+      "trades": 15
+     },
+     {
+      "kind": "param",
+      "label": "Sell above RSI +25% (69)",
+      "returnPct": 1.4177211888747765,
+      "buyHoldPct": 41.5197688164981,
+      "maxDrawdownPct": 3.402444172368957,
+      "trades": 12
+     },
+     {
+      "kind": "cost",
+      "label": "Fees and spread x2",
+      "returnPct": -5.768109888013129,
+      "buyHoldPct": 41.5197688164981,
+      "maxDrawdownPct": 6.339039110029135,
+      "trades": 14
+     },
+     {
+      "kind": "cost",
+      "label": "Fees and spread x3",
+      "returnPct": -8.08957600394602,
+      "buyHoldPct": 41.5197688164981,
+      "maxDrawdownPct": 8.571276073794214,
+      "trades": 14
+     }
+    ],
+    "summary": {
+     "windows": 4,
+     "windowsProfitable": 2,
+     "worstWindowPct": -2.9187932285651863,
+     "medianWindowPct": -0.3097449795849083,
+     "paramBestPct": 1.4177211888747765,
+     "paramWorstPct": -5.357637613403909,
+     "baseReturnPct": -3.391145982991417,
+     "costDoubledPct": -5.768109888013129,
+     "verdict": [
+      "It lost money (or made nothing) over the full history with these settings."
+     ]
+    }
+   }
+  }
+ ],
+ "scenarios": [
+  {
+   "seed": 1,
+   "results": [
+    "ok",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "ok",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "Position would be 49.9% of equity, limit is 40%",
+    "Position would be 41.0% of equity, limit is 40%",
+    "Position would be 52.1% of equity, limit is 40%",
+    "Position would be 58.4% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "Position would be 40.5% of equity, limit is 40%",
+    "skip",
+    "ok",
+    "skip",
+    "Position would be 43.6% of equity, limit is 40%",
+    "ok",
+    "Order is 25.1% of equity, limit is 25%",
+    "Position would be 48.3% of equity, limit is 40%",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "Position would be 43.1% of equity, limit is 40%",
+    "skip",
+    "ok",
+    "skip",
+    "Position would be 47.4% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "ok",
+    "ok",
+    "Position would be 43.5% of equity, limit is 40%",
+    "skip",
+    "Position would be 58.1% of equity, limit is 40%",
+    "ok",
+    "Position would be 50.3% of equity, limit is 40%",
+    "Position would be 49.1% of equity, limit is 40%",
+    "skip",
+    "ok",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "Position would be 41.7% of equity, limit is 40%",
+    "ok",
+    "skip",
+    "Order is 36.1% of equity, limit is 25%",
+    "skip",
+    "ok",
+    "skip",
+    "Order is 27.2% of equity, limit is 25%",
+    "ok",
+    "Order is 25.8% of equity, limit is 25%",
+    "ok",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused"
+   ],
+   "fills": [
+    {
+     "id": "F2",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.622,
+     "price": 1887.73,
+     "fee": 4.69667224,
+     "t": 1786675500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F5",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.03,
+     "price": 63067.36,
+     "fee": 7.5680832,
+     "t": 1786801500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F10",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.03165493,
+     "price": 63465.89,
+     "fee": 8.036033221350799,
+     "t": 1786831200000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F12",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.315,
+     "price": 1879.1,
+     "fee": 1.183833,
+     "t": 1786843800000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F15",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.795945,
+     "price": 1893.23,
+     "fee": 6.0276278094,
+     "t": 1786917600000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F18",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.03165493,
+     "price": 62759.09,
+     "fee": 7.9465384032548,
+     "t": 1786924800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -32.19331350640755
+    },
+    {
+     "id": "F20",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.795945,
+     "price": 1885.97,
+     "fee": 6.004513566600001,
+     "t": 1786932000000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -13.636900970421948
+    },
+    {
+     "id": "F22",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.03142603,
+     "price": 63615.86,
+     "fee": 7.996775699343201,
+     "t": 1786935600000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F25",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.806,
+     "price": 1909.67,
+     "fee": 6.156776080000001,
+     "t": 1786977900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F28",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.03,
+     "price": 66851.4,
+     "fee": 4.011083999999999,
+     "t": 1787153400000,
+     "source": "manual",
+     "maker": true,
+     "realized": 90.47991056598016
+    },
+    {
+     "id": "F29",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.806,
+     "price": 2024.25,
+     "fee": 3.2630910000000006,
+     "t": 1787153400000,
+     "source": "manual",
+     "maker": true,
+     "realized": 92.35546240503959
+    },
+    {
+     "id": "F31",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.232,
+     "price": 2085.15,
+     "fee": 1.9350192000000002,
+     "t": 1787154300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F34",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.022,
+     "price": 78371.64,
+     "fee": 6.8967043199999996,
+     "t": 1787355900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F36",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.03142603,
+     "price": 77070.83,
+     "fee": 9.6881208628196,
+     "t": 1787450400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 216.55384565615168
+    },
+    {
+     "id": "F38",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 1.169,
+     "price": 2389.68,
+     "fee": 11.17414368,
+     "t": 1787456700000,
+     "source": "manual",
+     "maker": false,
+     "realized": 511.1092412893822
+    },
+    {
+     "id": "F40",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.694616,
+     "price": 2379.35,
+     "fee": 6.6109383184,
+     "t": 1787461200000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F43",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.694616,
+     "price": 2400.68,
+     "fee": 6.67020295552,
+     "t": 1787479200000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 1.5350180060800085
+    },
+    {
+     "id": "F45",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02836975,
+     "price": 77877.6,
+     "fee": 8.8374721704,
+     "t": 1787522400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F48",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.4,
+     "price": 2485.3,
+     "fee": 3.9764800000000005,
+     "t": 1787607900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F50",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.674665,
+     "price": 2459.77,
+     "fee": 6.6380829081999995,
+     "t": 1787666400000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F53",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.674665,
+     "price": 2461.48,
+     "fee": 6.6426976168,
+     "t": 1787713200000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -18.56374893051725
+    },
+    {
+     "id": "F55",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.02836975,
+     "price": 78967.06,
+     "fee": 8.96110300174,
+     "t": 1787716800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 116.17139405292346
+    },
+    {
+     "id": "F58",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.464,
+     "price": 2501.58,
+     "fee": 4.642932480000001,
+     "t": 1787809500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F62",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02798512,
+     "price": 79116.58,
+     "fee": 8.856347941158399,
+     "t": 1787817600000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F65",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.346,
+     "price": 2483.24,
+     "fee": 1.7184020799999997,
+     "t": 1787836500000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F66",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.019,
+     "price": 77534.13,
+     "fee": 2.9462969400000003,
+     "t": 1787934600000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F67",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.464,
+     "price": 2406.85,
+     "fee": 4.467113599999999,
+     "t": 1787934600000,
+     "source": "manual",
+     "maker": false,
+     "realized": -44.98728604469443
+    },
+    {
+     "id": "F69",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.367,
+     "price": 2444.83,
+     "fee": 3.58901044,
+     "t": 1787935500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F71",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.02798512,
+     "price": 77747.19,
+     "fee": 8.703057767251199,
+     "t": 1787936400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 1.0828103983917572
+    },
+    {
+     "id": "F73",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.668701,
+     "price": 2445.52,
+     "fee": 6.54128667808,
+     "t": 1787936400000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F76",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.668701,
+     "price": 2434.8,
+     "fee": 6.5126127792,
+     "t": 1788012000000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -31.011645749598983
+    },
+    {
+     "id": "F78",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 1.113,
+     "price": 2446.75,
+     "fee": 10.892931,
+     "t": 1788036300000,
+     "source": "manual",
+     "maker": false,
+     "realized": -38.36928642746943
+    },
+    {
+     "id": "F80",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.256,
+     "price": 2467.14,
+     "fee": 2.52635136,
+     "t": 1788061500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F82",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.672814,
+     "price": 2420.27,
+     "fee": 6.513566159120001,
+     "t": 1788134400000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F85",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.041,
+     "price": 78489.95,
+     "fee": 12.8723518,
+     "t": 1788187500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 31.917734208941056
+    },
+    {
+     "id": "F87",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.672814,
+     "price": 2464.84,
+     "fee": 6.633515439040001,
+     "t": 1788188400000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 8.113842757664997
+    },
+    {
+     "id": "F89",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02771897,
+     "price": 78676.79,
+     "fee": 8.723358326825199,
+     "t": 1788195600000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F92",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.665594,
+     "price": 2458.24,
+     "fee": 6.54475917824,
+     "t": 1788253200000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F95",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.02771897,
+     "price": 78024.04,
+     "fee": 8.650984096155199,
+     "t": 1788264000000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -35.467900090480725
+    },
+    {
+     "id": "F97",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.665594,
+     "price": 2354.22,
+     "fee": 6.267818826719999,
+     "t": 1788345000000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -77.39737384530008
+    },
+    {
+     "id": "F99",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.681258,
+     "price": 2369.98,
+     "fee": 6.45827133936,
+     "t": 1788346800000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F102",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.331,
+     "price": 2389.27,
+     "fee": 3.1633934800000003,
+     "t": 1788363900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F104",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.681258,
+     "price": 2394.25,
+     "fee": 6.524407866000001,
+     "t": 1788404400000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -11.116721717590735
+    },
+    {
+     "id": "F106",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.011,
+     "price": 77828.41,
+     "fee": 3.4244500400000004,
+     "t": 1788414300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F109",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02767394,
+     "price": 77902.54,
+     "fee": 8.6234808712304,
+     "t": 1788418800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F112",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.587,
+     "price": 2457.46,
+     "fee": 5.77011608,
+     "t": 1788540300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 27.37722683674565
+    }
+   ],
+   "orders": [
+    {
+     "id": "P1",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.622,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P3",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.568,
+     "price": 1832.17,
+     "group": null
+    },
+    {
+     "id": "P4",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P6",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.03,
+     "price": 61175.34,
+     "group": "oco-P4"
+    },
+    {
+     "id": "P7",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.03,
+     "price": 66851.4,
+     "group": "oco-P4"
+    },
+    {
+     "id": "P8",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.315,
+     "price": 1879.1,
+     "group": null
+    },
+    {
+     "id": "P9",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03165493,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P11",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.03165493,
+     "price": 60292.6,
+     "group": null
+    },
+    {
+     "id": "P13",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.323,
+     "price": 1841.82,
+     "group": null
+    },
+    {
+     "id": "P14",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.795945,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P16",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.795945,
+     "price": 1817.5,
+     "group": null
+    },
+    {
+     "id": "P17",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03165493,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P19",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.795945,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P21",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03142603,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P23",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.03142603,
+     "price": 60435.07,
+     "group": null
+    },
+    {
+     "id": "P24",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.806,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P26",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.806,
+     "price": 1852.38,
+     "group": "oco-P24"
+    },
+    {
+     "id": "P27",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.806,
+     "price": 2024.25,
+     "group": "oco-P24"
+    },
+    {
+     "id": "P30",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.232,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P32",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.014,
+     "price": 73516.33,
+     "group": null
+    },
+    {
+     "id": "P33",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.022,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P35",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03142603,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P37",
+     "status": "filled",
+     "type": "market",
+     "qty": 1.169,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P39",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.694616,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P41",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.694616,
+     "price": 2284.18,
+     "group": null
+    },
+    {
+     "id": "P42",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.694616,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P44",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02836975,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P46",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02836975,
+     "price": 73983.72,
+     "group": null
+    },
+    {
+     "id": "P47",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.4,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P49",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.674665,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P51",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.674665,
+     "price": 2361.38,
+     "group": null
+    },
+    {
+     "id": "P52",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.674665,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P54",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02836975,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P56",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.019,
+     "price": 77534.13,
+     "group": null
+    },
+    {
+     "id": "P57",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.464,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P59",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.464,
+     "price": 2426.53,
+     "group": "oco-P57"
+    },
+    {
+     "id": "P60",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.464,
+     "price": 2651.67,
+     "group": "oco-P57"
+    },
+    {
+     "id": "P61",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02798512,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P63",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02798512,
+     "price": 75160.75,
+     "group": null
+    },
+    {
+     "id": "P64",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.346,
+     "price": 2483.24,
+     "group": null
+    },
+    {
+     "id": "P68",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.367,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P70",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02798512,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P72",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.668701,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P74",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.668701,
+     "price": 2347.7,
+     "group": null
+    },
+    {
+     "id": "P75",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.668701,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P77",
+     "status": "filled",
+     "type": "market",
+     "qty": 1.113,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P79",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.256,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P81",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.672814,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P83",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.672814,
+     "price": 2323.46,
+     "group": null
+    },
+    {
+     "id": "P84",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.041,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P86",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.672814,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P88",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02771897,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P90",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02771897,
+     "price": 74742.95,
+     "group": null
+    },
+    {
+     "id": "P91",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.665594,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P93",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.665594,
+     "price": 2359.91,
+     "group": null
+    },
+    {
+     "id": "P94",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02771897,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P96",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.028,
+     "price": 75905.38,
+     "group": null
+    },
+    {
+     "id": "P98",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.681258,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P100",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.681258,
+     "price": 2275.18,
+     "group": null
+    },
+    {
+     "id": "P101",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.331,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P103",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.681258,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P105",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.011,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P107",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.011,
+     "price": 75493.56,
+     "group": null
+    },
+    {
+     "id": "P108",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02767394,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P110",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02767394,
+     "price": 74007.41,
+     "group": null
+    },
+    {
+     "id": "P111",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.587,
+     "price": null,
+     "group": null
+    }
+   ],
+   "cash": 7769.92165017599,
+   "equity": 10756.16589404019,
+   "feesPaid": 292.48880982220885,
+   "positions": [
+    {
+     "symbol": "BTC-USD",
+     "qty": 0.038673940000000004,
+     "cost": 3024.03065871883
+    }
+   ],
+   "killed": true
+  },
+  {
+   "seed": 3,
+   "results": [
+    "ok",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "Position would be 56.0% of equity, limit is 40%",
+    "skip",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "ok",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "ok",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "Position would be 44.0% of equity, limit is 40%",
+    "skip",
+    "ok",
+    "ok",
+    "skip",
+    "skip",
+    "skip"
+   ],
+   "fills": [
+    {
+     "id": "F2",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.565,
+     "price": 1887.58,
+     "fee": 4.2659308,
+     "t": 1786675500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F7",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.03167914,
+     "price": 63466.17,
+     "fee": 8.0422147387752,
+     "t": 1786831200000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F10",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.797347,
+     "price": 1893.23,
+     "fee": 6.03824504324,
+     "t": 1786917600000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F12",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.027,
+     "price": 62696.75,
+     "fee": 3.3856245,
+     "t": 1786919400000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F14",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.03167914,
+     "price": 62759.04,
+     "fee": 7.952609657702401,
+     "t": 1786924800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -25.307979353314295
+    },
+    {
+     "id": "F16",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.797347,
+     "price": 1885.97,
+     "fee": 6.01509008636,
+     "t": 1786932000000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -15.966258361020664
+    },
+    {
+     "id": "F18",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.03145061,
+     "price": 63616.06,
+     "fee": 8.0030555711864,
+     "t": 1786935600000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F21",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.494,
+     "price": 1903.31,
+     "fee": 3.76094056,
+     "t": 1786952700000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F23",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.494,
+     "price": 1889.8,
+     "fee": 3.7342448,
+     "t": 1787028300000,
+     "source": "manual",
+     "maker": false,
+     "realized": -10.881770494238026
+    },
+    {
+     "id": "F25",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.498,
+     "price": 1905.04,
+     "fee": 3.79483968,
+     "t": 1787053500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F30",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.013,
+     "price": 77419.08,
+     "fee": 4.02579216,
+     "t": 1787330700000,
+     "source": "manual",
+     "maker": false,
+     "realized": 175.49010467966446
+    },
+    {
+     "id": "F32",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.124,
+     "price": 2437.1,
+     "fee": 1.2088016000000001,
+     "t": 1787381100000,
+     "source": "manual",
+     "maker": false,
+     "realized": 64.37480291038727
+    },
+    {
+     "id": "F34",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.014,
+     "price": 80263.82,
+     "fee": 4.494773920000001,
+     "t": 1787633100000,
+     "source": "manual",
+     "maker": false,
+     "realized": 228.65639806117736
+    },
+    {
+     "id": "F37",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.125,
+     "price": 2494.34,
+     "fee": 1.2471700000000001,
+     "t": 1787784300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 72.02033454676146
+    },
+    {
+     "id": "F41",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.003,
+     "price": 76954.89,
+     "fee": 0.92345868,
+     "t": 1788313500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 39.11071674453797
+    },
+    {
+     "id": "F42",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.016,
+     "price": 76158.45,
+     "fee": 4.8741408,
+     "t": 1788345000000,
+     "source": "manual",
+     "maker": false,
+     "realized": 195.89842146420267
+    },
+    {
+     "id": "F47",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.329,
+     "price": 2474.88,
+     "fee": 1.6284710400000002,
+     "t": 1788845400000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F49",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.141,
+     "price": 2407.43,
+     "fee": 1.3577905199999998,
+     "t": 1789043400000,
+     "source": "manual",
+     "maker": false,
+     "realized": 45.833876783726964
+    },
+    {
+     "id": "F50",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.07,
+     "price": 2407.46,
+     "fee": 0.6740888000000002,
+     "t": 1789043400000,
+     "source": "manual",
+     "maker": false,
+     "realized": 22.75649851390702
+    },
+    {
+     "id": "F53",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.033,
+     "price": 76996.83,
+     "fee": 10.16358156,
+     "t": 1789094700000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F54",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.006,
+     "price": 76032.09,
+     "fee": 1.8247701600000001,
+     "t": 1789128900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 13.047709284324583
+    }
+   ],
+   "orders": [
+    {
+     "id": "P1",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.565,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P3",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.565,
+     "price": 1830.95,
+     "group": null
+    },
+    {
+     "id": "P4",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.027,
+     "price": 62696.75,
+     "group": null
+    },
+    {
+     "id": "P5",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.614,
+     "price": 1865.56,
+     "group": null
+    },
+    {
+     "id": "P6",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03167914,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P8",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.03167914,
+     "price": 60292.86,
+     "group": null
+    },
+    {
+     "id": "P9",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.797347,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P11",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.797347,
+     "price": 1817.5,
+     "group": null
+    },
+    {
+     "id": "P13",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03167914,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P15",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.797347,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P17",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03145061,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P19",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.03145061,
+     "price": 60435.26,
+     "group": null
+    },
+    {
+     "id": "P20",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.494,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P22",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.494,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P24",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.498,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P26",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.249,
+     "price": 1857.94,
+     "group": null
+    },
+    {
+     "id": "P27",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.014,
+     "price": 62430.01,
+     "group": null
+    },
+    {
+     "id": "P28",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.125,
+     "price": 2178.33,
+     "group": null
+    },
+    {
+     "id": "P29",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.013,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P31",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.124,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P33",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.014,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P35",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.016,
+     "price": 76253.27,
+     "group": null
+    },
+    {
+     "id": "P36",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.125,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P38",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.008,
+     "price": 75780.22,
+     "group": null
+    },
+    {
+     "id": "P39",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.004,
+     "price": 75842.66,
+     "group": null
+    },
+    {
+     "id": "P40",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.003,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P43",
+     "status": "open",
+     "type": "stop",
+     "qty": 0.283,
+     "price": 2403.56,
+     "group": null
+    },
+    {
+     "id": "P44",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.141,
+     "price": 2434.64,
+     "group": null
+    },
+    {
+     "id": "P45",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.07,
+     "price": 2426.91,
+     "group": null
+    },
+    {
+     "id": "P46",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.329,
+     "price": 2474.88,
+     "group": null
+    },
+    {
+     "id": "P48",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.006,
+     "price": 76225.7,
+     "group": null
+    },
+    {
+     "id": "P51",
+     "status": "open",
+     "type": "stop",
+     "qty": 0.2,
+     "price": 2387.59,
+     "group": null
+    },
+    {
+     "id": "P52",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.033,
+     "price": null,
+     "group": null
+    }
+   ],
+   "cash": 5971.517403037934,
+   "equity": 11361.731583255234,
+   "feesPaid": 87.415634677264,
+   "positions": [
+    {
+     "symbol": "BTC-USD",
+     "qty": 0.039450610000000004,
+     "cost": 2901.7242656930557
+    },
+    {
+     "symbol": "ETH-USD",
+     "qty": 0.9319999999999999,
+     "cost": 1931.791186049124
+    }
+   ],
+   "killed": false
+  },
+  {
+   "seed": 4,
+   "results": [
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "ok",
+    "Position would be 44.9% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "Position would be 43.5% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "Position would be 40.4% of equity, limit is 40%",
+    "skip",
+    "Position would be 48.7% of equity, limit is 40%",
+    "ok",
+    "ok",
+    "skip",
+    "skip",
+    "Position would be 47.7% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "ok",
+    "ok",
+    "skip",
+    "Position would be 48.7% of equity, limit is 40%",
+    "Order is 34.5% of equity, limit is 25%",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip"
+   ],
+   "fills": [
+    {
+     "id": "F2",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.333,
+     "price": 1880.9,
+     "fee": 1.2526794000000003,
+     "t": 1786678200000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F5",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.0316989,
+     "price": 63466.39,
+     "fee": 8.047258999884,
+     "t": 1786831200000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F9",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.798018,
+     "price": 1893.23,
+     "fee": 6.04332647256,
+     "t": 1786917600000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F12",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.0316989,
+     "price": 62759,
+     "fee": 7.9575650604,
+     "t": 1786924800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -38.42830893128394
+    },
+    {
+     "id": "F14",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.798018,
+     "price": 1885.96,
+     "fee": 6.0201201091200005,
+     "t": 1786932000000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -14.072576904399966
+    },
+    {
+     "id": "F16",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.03141387,
+     "price": 63615.76,
+     "fee": 7.993668858364801,
+     "t": 1786935600000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F19",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.474,
+     "price": 1899.23,
+     "fee": 1.80047004,
+     "t": 1786955400000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F21",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.846,
+     "price": 1906.05,
+     "fee": 6.4500732,
+     "t": 1787003100000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F24",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.846,
+     "price": 2020.41,
+     "fee": 3.41853372,
+     "t": 1787153400000,
+     "source": "manual",
+     "maker": true,
+     "realized": 92.46608617837933
+    },
+    {
+     "id": "F26",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.392,
+     "price": 2345.29,
+     "fee": 3.6774147200000002,
+     "t": 1787280300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F28",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.03141387,
+     "price": 77070.87,
+     "fee": 9.684377163867602,
+     "t": 1787450400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 404.99903035346733
+    },
+    {
+     "id": "F31",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.01,
+     "price": 76857.98,
+     "fee": 3.0743192,
+     "t": 1787481900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F34",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02813979,
+     "price": 77877.48,
+     "fee": 8.7658237317168,
+     "t": 1787522400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F37",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.516,
+     "price": 2493.81,
+     "fee": 5.14722384,
+     "t": 1787784300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 222.09962037804826
+    },
+    {
+     "id": "F39",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.005,
+     "price": 76861.75,
+     "fee": 1.5372350000000001,
+     "t": 1787934600000,
+     "source": "manual",
+     "maker": false,
+     "realized": -6.831557783163817
+    },
+    {
+     "id": "F42",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.03,
+     "price": 77782.02,
+     "fee": 9.3338424,
+     "t": 1788137100000,
+     "source": "manual",
+     "maker": false,
+     "realized": -13.491679098982786
+    },
+    {
+     "id": "F44",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.167,
+     "price": 2389.82,
+     "fee": 1.5963997600000002,
+     "t": 1788338700000,
+     "source": "manual",
+     "maker": false,
+     "realized": 54.58421400824432
+    },
+    {
+     "id": "F46",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.85,
+     "price": 2489.47,
+     "fee": 8.464197999999998,
+     "t": 1788767100000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F49",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.018,
+     "price": 77973.19,
+     "fee": 2.80703484,
+     "t": 1788874200000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F51",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.018,
+     "price": 77772.83,
+     "fee": 2.79982188,
+     "t": 1788993000000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F53",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.002,
+     "price": 76710.01,
+     "fee": 0.61368008,
+     "t": 1789043400000,
+     "source": "manual",
+     "maker": false,
+     "realized": -3.233821925465719
+    },
+    {
+     "id": "F55",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.85,
+     "price": 2437.35,
+     "fee": 8.28699,
+     "t": 1789094700000,
+     "source": "manual",
+     "maker": false,
+     "realized": 82.15605047243139
+    },
+    {
+     "id": "F56",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.019,
+     "price": 76029.27,
+     "fee": 5.77822452,
+     "t": 1789128900000,
+     "source": "manual",
+     "maker": false,
+     "realized": -43.60363205192448
+    }
+   ],
+   "orders": [
+    {
+     "id": "P1",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.333,
+     "price": 1880.9,
+     "group": null
+    },
+    {
+     "id": "P3",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.639,
+     "price": 1832.05,
+     "group": null
+    },
+    {
+     "id": "P4",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.0316989,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P6",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.0316989,
+     "price": 60293.07,
+     "group": null
+    },
+    {
+     "id": "P7",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.167,
+     "price": 1822.55,
+     "group": null
+    },
+    {
+     "id": "P8",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.798018,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P10",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.798018,
+     "price": 1817.5,
+     "group": null
+    },
+    {
+     "id": "P11",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.0316989,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P13",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.798018,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P15",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03141387,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P17",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.03141387,
+     "price": 60434.97,
+     "group": null
+    },
+    {
+     "id": "P18",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.474,
+     "price": 1899.23,
+     "group": null
+    },
+    {
+     "id": "P20",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.846,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P22",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.846,
+     "price": 1848.87,
+     "group": "oco-P20"
+    },
+    {
+     "id": "P23",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.846,
+     "price": 2020.41,
+     "group": "oco-P20"
+    },
+    {
+     "id": "P25",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.392,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P27",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03141387,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P29",
+     "status": "open",
+     "type": "stop",
+     "qty": 0.516,
+     "price": 2340.88,
+     "group": null
+    },
+    {
+     "id": "P30",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.01,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P32",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.01,
+     "price": 74552.24,
+     "group": null
+    },
+    {
+     "id": "P33",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02813979,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P35",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02813979,
+     "price": 73983.61,
+     "group": null
+    },
+    {
+     "id": "P36",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.516,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P38",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.005,
+     "price": 77543.67,
+     "group": null
+    },
+    {
+     "id": "P40",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.003,
+     "price": 75367.04,
+     "group": null
+    },
+    {
+     "id": "P41",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P43",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.167,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P45",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.85,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P47",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.002,
+     "price": 76817.12,
+     "group": null
+    },
+    {
+     "id": "P48",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.018,
+     "price": 77973.19,
+     "group": null
+    },
+    {
+     "id": "P50",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.018,
+     "price": 77772.83,
+     "group": null
+    },
+    {
+     "id": "P52",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.019,
+     "price": 76141.23,
+     "group": null
+    },
+    {
+     "id": "P54",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.85,
+     "price": null,
+     "group": null
+    }
+   ],
+   "cash": 8118.607186719588,
+   "equity": 10817.03826157429,
+   "feesPaid": 120.55028099591318,
+   "positions": [
+    {
+     "symbol": "BTC-USD",
+     "qty": 0.01813979,
+     "cost": 1415.26788372138
+    },
+    {
+     "symbol": "ETH-USD",
+     "qty": 0.5160000000000001,
+     "cost": 1202.768354254383
+    }
+   ],
+   "killed": false
+  },
+  {
+   "seed": 5,
+   "results": [
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "ok",
+    "skip",
+    "ok",
+    "ok",
+    "ok",
+    "skip",
+    "ok",
+    "skip",
+    "ok",
+    "skip",
+    "ok",
+    "skip",
+    "ok",
+    "ok",
+    "skip",
+    "Position would be 43.0% of equity, limit is 40%",
+    "ok",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "Position would be 40.8% of equity, limit is 40%",
+    "skip",
+    "ok",
+    "skip",
+    "Order is 27.3% of equity, limit is 25%",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "Position would be 54.2% of equity, limit is 40%",
+    "ok",
+    "ok",
+    "Position would be 54.1% of equity, limit is 40%",
+    "ok",
+    "ok",
+    "skip",
+    "Position would be 41.6% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "Position would be 50.2% of equity, limit is 40%",
+    "Position would be 43.3% of equity, limit is 40%",
+    "Position would be 44.7% of equity, limit is 40%",
+    "skip",
+    "Order is 26.8% of equity, limit is 25%",
+    "skip",
+    "skip",
+    "ok",
+    "ok",
+    "Position would be 57.1% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "Position would be 60.5% of equity, limit is 40%",
+    "Order is 27.6% of equity, limit is 25%",
+    "Position would be 61.4% of equity, limit is 40%",
+    "skip"
+   ],
+   "fills": [
+    {
+     "id": "F2",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.824,
+     "price": 1900.87,
+     "fee": 6.265267519999999,
+     "t": 1786776300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F4",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.572,
+     "price": 1882.84,
+     "fee": 4.30793792,
+     "t": 1786801500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F7",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.0316217,
+     "price": 63465.52,
+     "fee": 8.027550535136001,
+     "t": 1786831200000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F12",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.265,
+     "price": 1885,
+     "fee": 1.9981000000000002,
+     "t": 1786902300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F14",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.0316217,
+     "price": 62759.15,
+     "fee": 7.938204054220002,
+     "t": 1786924800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -38.30237481835593
+    },
+    {
+     "id": "F16",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.03145538,
+     "price": 63616.1,
+     "fee": 8.004274398471999,
+     "t": 1786935600000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F20",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 1.089,
+     "price": 1903.33,
+     "fee": 8.29090548,
+     "t": 1787003100000,
+     "source": "manual",
+     "maker": false,
+     "realized": -4.335190304901062
+    },
+    {
+     "id": "F21",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.432,
+     "price": 1887.47,
+     "fee": 1.63077408,
+     "t": 1787022900000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F23",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 1.004,
+     "price": 1894.67,
+     "fee": 7.608994720000001,
+     "t": 1787053500000,
+     "source": "manual",
+     "maker": false,
+     "realized": -9.005139415098938
+    },
+    {
+     "id": "F25",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.946,
+     "price": 1916.08,
+     "fee": 7.250446719999999,
+     "t": 1787103900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F29",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.34,
+     "price": 1920.84,
+     "fee": 2.6123424,
+     "t": 1787129100000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F30",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.946,
+     "price": 2031.04,
+     "fee": 3.8427276799999994,
+     "t": 1787153400000,
+     "source": "manual",
+     "maker": true,
+     "realized": 96.46370533125992
+    },
+    {
+     "id": "F32",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.264,
+     "price": 2246.95,
+     "fee": 2.3727792,
+     "t": 1787204700000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F34",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.758,
+     "price": 2284.43,
+     "fee": 3.46319588,
+     "t": 1787232600000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F36",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 1.362,
+     "price": 2513.24,
+     "fee": 13.692131519999998,
+     "t": 1787355900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 424.2093712687397
+    },
+    {
+     "id": "F38",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.023,
+     "price": 77385.73,
+     "fee": 7.11948716,
+     "t": 1787431500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F40",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.03145538,
+     "price": 77070.74,
+     "fee": 9.6971576543248,
+     "t": 1787450400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 221.84949332686483
+    },
+    {
+     "id": "F42",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.684314,
+     "price": 2379.34,
+     "fee": 6.51286269104,
+     "t": 1787461200000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F45",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.684314,
+     "price": 2400.85,
+     "fee": 6.5717410676,
+     "t": 1787479200000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 1.6349903813600122
+    },
+    {
+     "id": "F47",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02795353,
+     "price": 77877.39,
+     "fee": 8.707791830746801,
+     "t": 1787522400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F52",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.66,
+     "price": 2486.73,
+     "fee": 3.2824836,
+     "t": 1787643000000,
+     "source": "manual",
+     "maker": true,
+     "realized": 0
+    },
+    {
+     "id": "F54",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.61,
+     "price": 2484.85,
+     "fee": 6.063034,
+     "t": 1787658300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F56",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.006,
+     "price": 79102.12,
+     "fee": 1.89845088,
+     "t": 1787683500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 26.54571458484901
+    },
+    {
+     "id": "F58",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.02795353,
+     "price": 78968.34,
+     "fee": 8.8297754449608,
+     "t": 1787716800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 119.94974008607596
+    },
+    {
+     "id": "F60",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.403,
+     "price": 2460.31,
+     "fee": 3.9660197200000002,
+     "t": 1787733900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F63",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.023,
+     "price": 78989.61,
+     "fee": 7.2670441199999996,
+     "t": 1787809500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F66",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.836,
+     "price": 2490.05,
+     "fee": 8.326727199999999,
+     "t": 1787834700000,
+     "source": "manual",
+     "maker": false,
+     "realized": -6.309492340179077
+    },
+    {
+     "id": "F68",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.659511,
+     "price": 2471.96,
+     "fee": 6.52113924624,
+     "t": 1787932800000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F70",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.011,
+     "price": 76860.25,
+     "fee": 3.3818509999999997,
+     "t": 1787934600000,
+     "source": "manual",
+     "maker": false,
+     "realized": -7.1664867916384765
+    },
+    {
+     "id": "F72",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.659511,
+     "price": 2434.82,
+     "fee": 6.42316229208,
+     "t": 1788012000000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -39.5739738886914
+    },
+    {
+     "id": "F74",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.666404,
+     "price": 2420.26,
+     "fee": 6.451483780160001,
+     "t": 1788134400000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F77",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.025,
+     "price": 78051.87,
+     "fee": 7.805187,
+     "t": 1788137100000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F82",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.666404,
+     "price": 2464.85,
+     "fee": 6.5703435976,
+     "t": 1788188400000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -3.7661917278342116
+    },
+    {
+     "id": "F83",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.006,
+     "price": 76375.96,
+     "fee": 1.8330230400000003,
+     "t": 1788287400000,
+     "source": "manual",
+     "maker": false,
+     "realized": -10.024692281995044
+    },
+    {
+     "id": "F84",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.023,
+     "price": 76372.77,
+     "fee": 7.02629484,
+     "t": 1788287400000,
+     "source": "manual",
+     "maker": false,
+     "realized": -38.5010636009813
+    },
+    {
+     "id": "F85",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.419,
+     "price": 2354.72,
+     "fee": 3.9465107199999996,
+     "t": 1788345000000,
+     "source": "manual",
+     "maker": false,
+     "realized": -48.32787660683164
+    },
+    {
+     "id": "F87",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.418,
+     "price": 2376.36,
+     "fee": 3.97327392,
+     "t": 1788389100000,
+     "source": "manual",
+     "maker": false,
+     "realized": -39.20319769254297
+    },
+    {
+     "id": "F89",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.026,
+     "price": 77168.88,
+     "fee": 8.02556352,
+     "t": 1789069500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    }
+   ],
+   "orders": [
+    {
+     "id": "P1",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.824,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P3",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.572,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P5",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.572,
+     "price": 1826.35,
+     "group": null
+    },
+    {
+     "id": "P6",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.0316217,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P8",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.0316217,
+     "price": 60292.24,
+     "group": null
+    },
+    {
+     "id": "P9",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.211,
+     "price": 1836.47,
+     "group": null
+    },
+    {
+     "id": "P10",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.014,
+     "price": 62058.3,
+     "group": null
+    },
+    {
+     "id": "P11",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.265,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P13",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.0316217,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P15",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03145538,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P17",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.03145538,
+     "price": 60435.3,
+     "group": null
+    },
+    {
+     "id": "P18",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.432,
+     "price": 1887.47,
+     "group": null
+    },
+    {
+     "id": "P19",
+     "status": "filled",
+     "type": "market",
+     "qty": 1.089,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P22",
+     "status": "filled",
+     "type": "market",
+     "qty": 1.004,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P24",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.946,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P26",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.946,
+     "price": 1858.6,
+     "group": "oco-P24"
+    },
+    {
+     "id": "P27",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.946,
+     "price": 2031.04,
+     "group": "oco-P24"
+    },
+    {
+     "id": "P28",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.34,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P31",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.264,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P33",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.758,
+     "price": 2284.43,
+     "group": null
+    },
+    {
+     "id": "P35",
+     "status": "filled",
+     "type": "market",
+     "qty": 1.362,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P37",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.023,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P39",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03145538,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P41",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.684314,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P43",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.684314,
+     "price": 2284.17,
+     "group": null
+    },
+    {
+     "id": "P44",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.684314,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P46",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02795353,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P48",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02795353,
+     "price": 73983.52,
+     "group": null
+    },
+    {
+     "id": "P49",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.011,
+     "price": 77094.07,
+     "group": null
+    },
+    {
+     "id": "P50",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.006,
+     "price": 76601.32,
+     "group": null
+    },
+    {
+     "id": "P51",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.66,
+     "price": 2486.73,
+     "group": null
+    },
+    {
+     "id": "P53",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.61,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P55",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.006,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P57",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02795353,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P59",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.403,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P61",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.837,
+     "price": 2376.53,
+     "group": null
+    },
+    {
+     "id": "P62",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.023,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P64",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.023,
+     "price": 76619.92,
+     "group": null
+    },
+    {
+     "id": "P65",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.836,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P67",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.659511,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P69",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.659511,
+     "price": 2373.08,
+     "group": null
+    },
+    {
+     "id": "P71",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.659511,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P73",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.666404,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P75",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.666404,
+     "price": 2323.45,
+     "group": null
+    },
+    {
+     "id": "P76",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.025,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P78",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.025,
+     "price": 75710.31,
+     "group": "oco-P76"
+    },
+    {
+     "id": "P79",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.025,
+     "price": 82734.98,
+     "group": "oco-P76"
+    },
+    {
+     "id": "P80",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.419,
+     "price": 2365.72,
+     "group": null
+    },
+    {
+     "id": "P81",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.666404,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P86",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.418,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P88",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.026,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P90",
+     "status": "open",
+     "type": "stop",
+     "qty": 0.026,
+     "price": 74853.81,
+     "group": "oco-P88"
+    },
+    {
+     "id": "P91",
+     "status": "open",
+     "type": "limit",
+     "qty": 0.026,
+     "price": 81799.01,
+     "group": "oco-P88"
+    }
+   ],
+   "cash": 6688.189936815121,
+   "equity": 10626.20236681512,
+   "feesPaid": 227.5060404325804,
+   "positions": [
+    {
+     "symbol": "BTC-USD",
+     "qty": 0.05099999999999999,
+     "cost": 3957.947398694979
+    }
+   ],
+   "killed": false
+  },
+  {
+   "seed": 6,
+   "results": [
+    "ok",
+    "Order is 29.5% of equity, limit is 25%",
+    "skip",
+    "ok",
+    "skip",
+    "Order is 31.5% of equity, limit is 25%",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "skip",
+    "ok",
+    "Position would be 40.1% of equity, limit is 40%",
+    "Position would be 42.5% of equity, limit is 40%",
+    "Order is 30.7% of equity, limit is 25%",
+    "skip",
+    "Position would be 47.6% of equity, limit is 40%",
+    "Order is 25.3% of equity, limit is 25%",
+    "skip",
+    "skip",
+    "Position would be 41.8% of equity, limit is 40%",
+    "Order is 30.4% of equity, limit is 25%",
+    "Position would be 41.2% of equity, limit is 40%",
+    "skip",
+    "Position would be 47.7% of equity, limit is 40%",
+    "ok",
+    "skip",
+    "Position would be 49.4% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "skip",
+    "Order is 25.7% of equity, limit is 25%",
+    "Position would be 45.3% of equity, limit is 40%",
+    "skip",
+    "Position would be 50.7% of equity, limit is 40%",
+    "skip",
+    "Position would be 41.8% of equity, limit is 40%",
+    "skip",
+    "Position would be 43.3% of equity, limit is 40%",
+    "Order is 26.5% of equity, limit is 25%",
+    "Position would be 48.3% of equity, limit is 40%",
+    "Position would be 40.4% of equity, limit is 40%",
+    "Position would be 45.9% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "Position would be 41.1% of equity, limit is 40%",
+    "Order is 31.9% of equity, limit is 25%",
+    "skip",
+    "skip",
+    "skip",
+    "Position would be 44.0% of equity, limit is 40%",
+    "skip",
+    "Position would be 43.7% of equity, limit is 40%",
+    "ok",
+    "skip",
+    "skip",
+    "Position would be 54.1% of equity, limit is 40%",
+    "ok",
+    "Order is 25.3% of equity, limit is 25%",
+    "Position would be 41.3% of equity, limit is 40%",
+    "Position would be 40.7% of equity, limit is 40%",
+    "Position would be 50.7% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "ok",
+    "ok",
+    "ok",
+    "skip",
+    "Order is 27.1% of equity, limit is 25%",
+    "skip",
+    "ok",
+    "ok",
+    "ok",
+    "skip",
+    "Position would be 55.7% of equity, limit is 40%",
+    "skip",
+    "skip",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "ok",
+    "Kill switch is on: buys are paused",
+    "Kill switch is on: buys are paused",
+    "skip",
+    "skip",
+    "skip"
+   ],
+   "fills": [
+    {
+     "id": "F2",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.731,
+     "price": 1888.01,
+     "fee": 5.52054124,
+     "t": 1786675500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F5",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.012,
+     "price": 63012.43,
+     "fee": 3.0245966400000004,
+     "t": 1786751100000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F8",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.03166529,
+     "price": 63466.01,
+     "fee": 8.0386784471716,
+     "t": 1786831200000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F11",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.796664,
+     "price": 1893.23,
+     "fee": 6.0330727388800005,
+     "t": 1786917600000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F14",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.03166529,
+     "price": 62759.07,
+     "fee": 7.9491366067212,
+     "t": 1786924800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -34.410349041742165
+    },
+    {
+     "id": "F16",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.796664,
+     "price": 1885.97,
+     "fee": 6.00993761632,
+     "t": 1786932000000,
+     "source": "bot2",
+     "maker": false,
+     "realized": -15.828913104395497
+    },
+    {
+     "id": "F18",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.03141091,
+     "price": 63615.74,
+     "fee": 7.9929131348936,
+     "t": 1786935600000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F22",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.535,
+     "price": 1914.44,
+     "fee": 4.0969016,
+     "t": 1787103900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F25",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.03141091,
+     "price": 77070.88,
+     "fee": 9.683465901203201,
+     "t": 1787450400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 407.35376199081657
+    },
+    {
+     "id": "F27",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.298,
+     "price": 2419.84,
+     "fee": 2.88444928,
+     "t": 1787456700000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F31",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02890499,
+     "price": 77877.87,
+     "fee": 9.0042362142852,
+     "t": 1787522400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F34",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.02890499,
+     "price": 78965.4,
+     "fee": 9.129976389384,
+     "t": 1787716800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 135.36813930532026
+    },
+    {
+     "id": "F36",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02863284,
+     "price": 79117.07,
+     "fee": 9.061385626315202,
+     "t": 1787817600000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F38",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.298,
+     "price": 2565.03,
+     "fee": 1.5287578800000001,
+     "t": 1787823000000,
+     "source": "manual",
+     "maker": true,
+     "realized": 164.56891971384948
+    },
+    {
+     "id": "F40",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.02863284,
+     "price": 77746.51,
+     "fee": 8.904413525553599,
+     "t": 1787936400000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -10.977722558301593
+    },
+    {
+     "id": "F42",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02867522,
+     "price": 79086.84,
+     "fee": 9.0713301444192,
+     "t": 1788073200000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F45",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.02867522,
+     "price": 77904.08,
+     "fee": 8.935666531590401,
+     "t": 1788156000000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -38.52037815397762
+    },
+    {
+     "id": "F47",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.513,
+     "price": 2443.77,
+     "fee": 5.01461604,
+     "t": 1788162300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F49",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.0284773,
+     "price": 78677.54,
+     "fee": 8.962095639368,
+     "t": 1788195600000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F52",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 1.048,
+     "price": 2433.08,
+     "fee": 10.19947136,
+     "t": 1788263100000,
+     "source": "manual",
+     "maker": false,
+     "realized": 300.8952087189218
+    },
+    {
+     "id": "F54",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.0284773,
+     "price": 78023.51,
+     "fee": 8.887595605291999,
+     "t": 1788264000000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -35.99809665979501
+    },
+    {
+     "id": "F56",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.6799,
+     "price": 2447.27,
+     "fee": 6.655595492,
+     "t": 1788267600000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F59",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.6799,
+     "price": 2394.27,
+     "fee": 6.511456692,
+     "t": 1788404400000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 63.81285738152019
+    },
+    {
+     "id": "F61",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.02829277,
+     "price": 77904.07,
+     "fee": 8.816487738295601,
+     "t": 1788418800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F64",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.745,
+     "price": 2429.06,
+     "fee": 7.2385988,
+     "t": 1788439500000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F66",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.745,
+     "price": 2516.78,
+     "fee": 7.500004400000001,
+     "t": 1788464700000,
+     "source": "manual",
+     "maker": false,
+     "realized": 105.19758306180438
+    },
+    {
+     "id": "F68",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.264,
+     "price": 2508.21,
+     "fee": 2.64866976,
+     "t": 1788489900000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F70",
+     "symbol": "ETH-USD",
+     "side": "buy",
+     "qty": 0.68045,
+     "price": 2455.92,
+     "fee": 6.684523056,
+     "t": 1788526800000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F73",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.02829277,
+     "price": 79557.18,
+     "fee": 9.0035719823544,
+     "t": 1788562800000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 22.54857371725302
+    },
+    {
+     "id": "F76",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.68045,
+     "price": 2454.17,
+     "fee": 6.679759906,
+     "t": 1788595200000,
+     "source": "bot2",
+     "maker": false,
+     "realized": 9.57409075446003
+    },
+    {
+     "id": "F79",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.014,
+     "price": 79846.72,
+     "fee": 4.47141632,
+     "t": 1788641100000,
+     "source": "manual",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F81",
+     "symbol": "BTC-USD",
+     "side": "buy",
+     "qty": 0.01765606,
+     "price": 80216.66,
+     "fee": 5.665240647838401,
+     "t": 1788667200000,
+     "source": "bot1",
+     "maker": false,
+     "realized": 0
+    },
+    {
+     "id": "F84",
+     "symbol": "ETH-USD",
+     "side": "sell",
+     "qty": 0.264,
+     "price": 2495.17,
+     "fee": 2.6348995200000003,
+     "t": 1788918300000,
+     "source": "manual",
+     "maker": false,
+     "realized": 14.495245787313706
+    },
+    {
+     "id": "F87",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.007,
+     "price": 76864.82,
+     "fee": 2.1522149600000002,
+     "t": 1789044300000,
+     "source": "manual",
+     "maker": false,
+     "realized": -22.9952803110516
+    },
+    {
+     "id": "F88",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.01765606,
+     "price": 76029.56,
+     "fee": 5.3695298925344,
+     "t": 1789128900000,
+     "source": "bot1",
+     "maker": false,
+     "realized": -72.68927519986119
+    },
+    {
+     "id": "F89",
+     "symbol": "BTC-USD",
+     "side": "sell",
+     "qty": 0.007,
+     "price": 76031.88,
+     "fee": 2.12889264,
+     "t": 1789128900000,
+     "source": "manual",
+     "maker": false,
+     "realized": -28.802537991051622
+    }
+   ],
+   "orders": [
+    {
+     "id": "P1",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.731,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P3",
+     "status": "open",
+     "type": "stop",
+     "qty": 0.731,
+     "price": 1831.37,
+     "group": null
+    },
+    {
+     "id": "P4",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.012,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P6",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.012,
+     "price": 61122.06,
+     "group": null
+    },
+    {
+     "id": "P7",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03166529,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P9",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.03166529,
+     "price": 60292.71,
+     "group": null
+    },
+    {
+     "id": "P10",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.796664,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P12",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.796664,
+     "price": 1817.5,
+     "group": null
+    },
+    {
+     "id": "P13",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03166529,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P15",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.796664,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P17",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03141091,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P19",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.03141091,
+     "price": 60434.95,
+     "group": null
+    },
+    {
+     "id": "P20",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.016,
+     "price": 61878.79,
+     "group": null
+    },
+    {
+     "id": "P21",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.535,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P23",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.535,
+     "price": 1857.01,
+     "group": null
+    },
+    {
+     "id": "P24",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.03141091,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P26",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.298,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P28",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.298,
+     "price": 2347.24,
+     "group": "oco-P26"
+    },
+    {
+     "id": "P29",
+     "status": "filled",
+     "type": "limit",
+     "qty": 0.298,
+     "price": 2565.03,
+     "group": "oco-P26"
+    },
+    {
+     "id": "P30",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02890499,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P32",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02890499,
+     "price": 73983.98,
+     "group": null
+    },
+    {
+     "id": "P33",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02890499,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P35",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02863284,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P37",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02863284,
+     "price": 75161.22,
+     "group": null
+    },
+    {
+     "id": "P39",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02863284,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P41",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02867522,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P43",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02867522,
+     "price": 75132.5,
+     "group": null
+    },
+    {
+     "id": "P44",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02867522,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P46",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.513,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P48",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.0284773,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P50",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.0284773,
+     "price": 74743.66,
+     "group": null
+    },
+    {
+     "id": "P51",
+     "status": "filled",
+     "type": "market",
+     "qty": 1.048,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P53",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.0284773,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P55",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.6799,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P57",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.6799,
+     "price": 2349.38,
+     "group": null
+    },
+    {
+     "id": "P58",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.6799,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P60",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02829277,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P62",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.02829277,
+     "price": 74008.87,
+     "group": null
+    },
+    {
+     "id": "P63",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.745,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P65",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.745,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P67",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.264,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P69",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.68045,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P71",
+     "status": "cancelled",
+     "type": "stop",
+     "qty": 0.68045,
+     "price": 2357.68,
+     "group": null
+    },
+    {
+     "id": "P72",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.02829277,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P74",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.018,
+     "price": 78183.72,
+     "group": null
+    },
+    {
+     "id": "P75",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.68045,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P77",
+     "status": "cancelled",
+     "type": "limit",
+     "qty": 0.035,
+     "price": 78312.93,
+     "group": null
+    },
+    {
+     "id": "P78",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.014,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P80",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.01765606,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P82",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.01765606,
+     "price": 76205.83,
+     "group": null
+    },
+    {
+     "id": "P83",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.264,
+     "price": null,
+     "group": null
+    },
+    {
+     "id": "P85",
+     "status": "filled",
+     "type": "stop",
+     "qty": 0.007,
+     "price": 76225.7,
+     "group": null
+    },
+    {
+     "id": "P86",
+     "status": "filled",
+     "type": "market",
+     "qty": 0.007,
+     "price": null,
+     "group": null
+    }
+   ],
+   "cash": 8228.946082403178,
+   "equity": 10994.016862403178,
+   "feesPaid": 234.09409996841995,
+   "positions": [
+    {
+     "symbol": "BTC-USD",
+     "qty": 0.011999999999999997,
+     "cost": 958.1088091732311
+    },
+    {
+     "symbol": "ETH-USD",
+     "qty": 0.7310000000000001,
+     "cost": 1776.5369358346738
+    }
+   ],
+   "killed": true
+  }
+ ]
+}

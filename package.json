@@ -1,0 +1,19 @@
+{
+  "name": "glass-trader",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p .",
+    "build": "node build.mjs",
+    "test": "tsc -p tsconfig.test.json && echo '{\"type\":\"module\"}' > .test-build/package.json && node --test tests/core.test.mjs",
+    "check": "npm run typecheck && npm run test && npm run build",
+    "golden": "tsc -p tsconfig.test.json && echo '{\"type\":\"module\"}' > .test-build/package.json && node tests/golden.mjs",
+    "test:server": "cd server && python -m unittest discover -s tests -t .",
+    "test:ui": "for t in ui ui_features ui_stress ui_journal ui_server ui_live ui_auth ui_pwa; do python tests/$t.py || exit 1; done"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  },
+  "license": "MIT"
+}
