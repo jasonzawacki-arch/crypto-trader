@@ -1178,7 +1178,7 @@ async function bootServed(): Promise<void> {
 // Installable app: only where service workers exist (not inside the Claude preview).
 try {
   if ('serviceWorker' in navigator && location.protocol.startsWith('http') && location.origin !== 'null') {
-    navigator.serviceWorker.register('/sw.js').catch(() => {});
+    navigator.serviceWorker.register('sw.js') // relative: works at the server's root and under /crypto-trader/ on GitHub Pages.catch(() => {});
   }
 } catch (e) {
   /* ignore */
