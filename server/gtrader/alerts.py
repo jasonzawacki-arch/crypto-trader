@@ -15,7 +15,8 @@ from typing import Callable, Optional
 
 def _post(url: str, body: bytes, headers: dict) -> None:
     req = urllib.request.Request(url, data=body, headers=headers, method="POST")
-    urllib.request.urlopen(req, timeout=8).read()
+    with urllib.request.urlopen(req, timeout=8) as r:  # closes the connection after each alert
+        r.read()
 
 
 class Notifier:

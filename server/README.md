@@ -9,9 +9,11 @@ python -m unittest discover -s tests -t .        # or: pytest
 ```
 
 - Paper exchange only. `GT_EXCHANGE=live` refuses to start; a live adapter must implement `types.Exchange`.
-- `GT_TOKEN` enables bearer auth (`Authorization: Bearer ...` or `?token=` for the event stream). Keep it set anywhere but localhost.
+- `GT_TOKEN` enables bearer auth (`Authorization: Bearer ...`; `?token=` only for the event stream, which cannot send headers). Keep it set anywhere but localhost.
+- Without a password (no `GT_TOKEN`, no users) the server answers only to requests addressed to localhost, so a website you visit cannot reach it through DNS tricks. `GT_HOSTS=name1,name2` adds host names for that case; with a password set, any host name works.
+- Changes must be JSON (`Content-Type: application/json`) and must come from the app's own page or a site listed in `GT_CORS`, so other websites cannot place orders through your browser.
 - `GT_DB=gt.sqlite3` saves the account (orders, fills, bots, risk state) so a restart resumes where it stopped; fills are also journaled append-only. Without it, state is in memory only.
-- `GT_CORS=https://your.site` allows a browser page on another origin. `GT_DATA` points at a candles file.
+- `GT_CORS=https://your.site` allows a browser page on another origin (to read and to make changes). `GT_CORS=*` allows every site; use it only with a password, since without one any website you visit could control the server (it prints a warning). `GT_DATA` points at a candles file.
 - Endpoints: `GET /api/health|state|candles|strategies|stream` (SSE), `POST /api/control/{play,pause,step,speed,symbol,reset}`,
   `POST /api/orders`, `DELETE /api/orders/{id}`, `POST/PATCH/DELETE /api/bots`, `POST /api/risk/{kill,resume}`, `PUT /api/config`, `POST /api/backtest`, `POST /api/sweep`, `PUT /api/journal/{id}`, `GET /api/calibration`, `POST /api/login`, `GET /api/me|users|audit`.
 - `tests/test_parity.py` checks this core against the TypeScript core's results (`tests/golden.json`, regenerate with `node tests/golden.mjs` from the repo root).

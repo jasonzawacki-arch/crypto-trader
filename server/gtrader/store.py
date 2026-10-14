@@ -23,6 +23,13 @@ class Store:
         with self.lock:
             self.db.close()
 
+    def __del__(self) -> None:
+        # A Store dropped without close() (tests, a replaced session) still releases its database file.
+        try:
+            self.db.close()
+        except Exception:
+            pass
+
     def save(self, snap: dict) -> None:
         with self.lock, self.db:
             self.db.execute("INSERT INTO snapshot (id, body) VALUES (1, ?) ON CONFLICT(id) DO UPDATE SET body = excluded.body, saved_at = strftime('%s','now')", (json.dumps(snap),))

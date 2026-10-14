@@ -43,9 +43,15 @@ with sync_playwright() as p:
         pg.click('[data-act=btAll]'); check('Buy & hold' in pg.inner_text('#view'), f'{name}: compare table')
         pg.evaluate('window.scrollTo(0,0)')
         pg.screenshot(path=f'{OUT}/{name}-test.png', full_page=True)
-        pg.click('.dock [data-v=risk]'); pg.click('[data-act=kill]'); pg.wait_for_timeout(100)
+        pg.click('.dock [data-v=risk]'); pg.click('[data-act=kill]')
+        try:  # the screen redraws after the state is saved, which can take a moment
+            pg.wait_for_function("document.querySelector('#killState').innerText.includes('Kill switch is ON')", timeout=5000)
+        except Exception:
+            pass
         check('Kill switch is ON' in pg.inner_text('#killState'), f'{name}: kill switch')
-        check('Running' not in pg.evaluate("document.body.innerText") or True, 'x')
+        pg.click('.dock [data-v=bots]'); pg.wait_for_timeout(300)
+        check('Running' not in pg.inner_text('#view'), f'{name}: kill switch stopped the bots')
+        pg.click('.dock [data-v=risk]')
         pg.screenshot(path=f'{OUT}/{name}-risk.png', full_page=True)
         check(pg.evaluate('document.documentElement.scrollWidth <= innerWidth'), f'{name}: risk no horizontal scroll')
         # persistence

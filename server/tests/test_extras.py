@@ -130,7 +130,8 @@ class History(unittest.TestCase):
         from gtrader import history as h
         d = tempfile.mkdtemp()
         p = os.path.join(d, "a.csv")
-        open(p, "w").write("Date,Open,High,Low,Close,Volume BTC\n2024-01-01 02:00:00,3,4,2,3.5,9\n2024-01-01 00:00:00,1,2,0.5,1.5,5\n2024-01-01 01:00:00,2,3,1,2.5,7\n")
+        with open(p, "w") as f:
+            f.write("Date,Open,High,Low,Close,Volume BTC\n2024-01-01 02:00:00,3,4,2,3.5,9\n2024-01-01 00:00:00,1,2,0.5,1.5,5\n2024-01-01 01:00:00,2,3,1,2.5,7\n")
         rows = h.from_csv(p)
         self.assertEqual([r[0] for r in rows], [1704067200000, 1704070800000, 1704074400000])  # sorted, ms
         self.assertEqual(h.validate(rows)["gaps"], [])

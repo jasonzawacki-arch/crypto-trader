@@ -1,7 +1,9 @@
 """HTTP API (Starlette). The browser is a thin client: it sends commands and reads state.
 
 Run:  GT_TOKEN=secret uvicorn gtrader.api:app --host 127.0.0.1 --port 8000
-Without GT_TOKEN the API is open, which is fine on 127.0.0.1 and nowhere else.
+Without GT_TOKEN (or users) the API is open, so it then answers only to requests addressed to localhost.
+Changes (POST, PUT, PATCH, DELETE) must be JSON and must not come from another website unless it is listed in
+GT_CORS, so a page you happen to visit cannot place orders on a server running on your computer.
 """
 from __future__ import annotations
 
@@ -11,6 +13,7 @@ import json
 import os
 from dataclasses import asdict, replace
 from typing import Optional
+from urllib.parse import urlparse
 
 from starlette.applications import Starlette
 from starlette.middleware import Middleware
@@ -35,6 +38,15 @@ from .types import OrderRequest
 PAPER_KEYS = {"starting_cash", "taker_bps", "maker_bps", "spread_bps", "impact_coef", "max_impact_bps"}
 RISK_KEYS = {"max_order_pct", "max_position_pct", "max_daily_loss_pct", "max_drawdown_pct", "min_notional"}
 TOKEN = os.environ.get("GT_TOKEN", "")
+LOCAL_HOSTS = {"localhost", "127.0.0.1", "[::1]"}
+
+
+def host_name(host: str) -> str:
+    """The name part of a Host header: 'localhost:8000' -> 'localhost', '[::1]:8000' -> '[::1]'."""
+    host = host.strip().lower()
+    if host.startswith("["):
+        return host[: host.find("]") + 1]
+    return host.rsplit(":", 1)[0] if host.count(":") == 1 else host
 
 
 def err(msg: str, status: int = 400) -> JSONResponse:
@@ -75,16 +87,40 @@ def make_app(session: Optional[Session] = None, token: str = TOKEN, venue: Optio
     if os.environ.get("GT_ADMIN_USER") and os.environ.get("GT_ADMIN_PASSWORD") and not A.store.users():
         A.add_user(os.environ["GT_ADMIN_USER"], os.environ["GT_ADMIN_PASSWORD"], "admin")
     MUTATING = ("POST", "PUT", "PATCH", "DELETE")
+    cors_origins = [o for o in os.environ.get("GT_CORS", "").split(",") if o]
+    extra_hosts = {h.strip().lower() for h in os.environ.get("GT_HOSTS", "").split(",") if h.strip()}
+
+    if "*" in cors_origins and not A.enabled:
+        print("WARNING: GT_CORS=* without a password lets any website you visit control this server. "
+              "Set GT_TOKEN, or list only the sites you use in GT_CORS.", flush=True)
+
+    def refuse(request: Request, method: str) -> Optional[JSONResponse]:
+        """Blocks other websites from driving the API through your browser (cross-site requests and DNS rebinding)."""
+        host = request.headers.get("host", "")
+        if not A.enabled and host_name(host) not in LOCAL_HOSTS | extra_hosts:
+            return err("This server has no password, so it only answers on localhost. Set GT_TOKEN or add users, "
+                       "or list this host name in GT_HOSTS.", 403)
+        if method in MUTATING:
+            origin = request.headers.get("origin")
+            if origin and "*" not in cors_origins and origin not in cors_origins and urlparse(origin).netloc.lower() != host.lower():
+                return err("Requests from other websites are refused. Add the site to GT_CORS to allow it.", 403)
+            if request.headers.get("content-type", "").split(";")[0].strip().lower() != "application/json":
+                return err("Send JSON (Content-Type: application/json).", 415)
+        return None
 
     async def auth(request: Request, call_next):
         path, method = request.url.path, request.method
         if method == "OPTIONS" or not path.startswith("/api"):
             return await call_next(request)  # the static app files are public; the API is not
+        blocked = refuse(request, method)
+        if blocked:
+            return blocked
         need = needed_role(method, path)
         who = ("local", "admin")  # no token and no users configured: open, which is only safe on localhost
         if need and A.enabled:
             sent = request.headers.get("authorization", "")
-            bearer = sent[7:] if sent.lower().startswith("bearer ") else request.query_params.get("token", "")
+            # A password in the address only for the live stream: EventSource cannot send headers, and addresses end up in logs.
+            bearer = sent[7:] if sent.lower().startswith("bearer ") else (request.query_params.get("token", "") if path == "/api/stream" else "")
             who = A.identify(bearer)
             if not who:
                 return err("Unauthorized", 401)
@@ -428,8 +464,7 @@ def make_app(session: Optional[Session] = None, token: str = TOKEN, venue: Optio
         Route("/api/sweep", sweep, methods=["POST"]),
         Route("/api/stream", stream),
     ] + [Route(p, serve_static) for p in STATIC_FILES]
-    origins = [o for o in os.environ.get("GT_CORS", "").split(",") if o]
-    mw = [Middleware(CORSMiddleware, allow_origins=origins, allow_methods=["*"], allow_headers=["*"])] if origins else []
+    mw = [Middleware(CORSMiddleware, allow_origins=cors_origins, allow_methods=["*"], allow_headers=["*"])] if cors_origins else []
     # CORS must be outermost so even 401 responses carry its headers.
     app = Starlette(routes=routes, middleware=mw + [Middleware(BaseHTTPMiddleware, dispatch=auth)])
     app.state.session = S
