@@ -5,10 +5,10 @@ on:
 
 jobs:
   typescript:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with: { node-version: 22 }
       - run: npm install
       - run: npm run check            # typecheck, core tests, build
@@ -21,25 +21,25 @@ jobs:
             || (echo "server/tests/golden.json is stale. Run 'npm run golden' and commit it." && exit 1)
 
   python:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         python: ["3.11", "3.13"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with: { python-version: "${{ matrix.python }}" }
       - run: pip install -e "./server[dev]"
       - run: npm run test:server       # includes TS/Python parity against golden.json
 
   browser:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: [typescript]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with: { node-version: 22 }
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with: { python-version: "3.13" }
       - run: npm install && npm run build
       - run: pip install -e "./server[dev]" playwright && python -m playwright install --with-deps chromium
