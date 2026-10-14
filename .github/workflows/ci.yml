@@ -1,0 +1,46 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  typescript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install
+      - run: npm run check            # typecheck, core tests, build
+      - name: Golden file is up to date (advisory)
+        # Math.exp/log/cos can differ slightly between Node versions, so a diff here is a prompt to look, not a failure.
+        continue-on-error: true
+        run: |
+          npm run golden
+          git diff --exit-code server/tests/golden.json \
+            || (echo "server/tests/golden.json is stale. Run 'npm run golden' and commit it." && exit 1)
+
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "${{ matrix.python }}" }
+      - run: pip install -e "./server[dev]"
+      - run: npm run test:server       # includes TS/Python parity against golden.json
+
+  browser:
+    runs-on: ubuntu-latest
+    needs: [typescript]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13" }
+      - run: npm install && npm run build
+      - run: pip install -e "./server[dev]" playwright && python -m playwright install --with-deps chromium
+      - run: npm run test:ui
