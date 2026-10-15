@@ -3,7 +3,7 @@ Paper-trading crypto simulator with a liquid-glass UI. Paper money only; not fin
 
 **Live demo: https://jasonzawacki-arch.github.io/crypto-trader/** (runs entirely in your browser with paper money and recorded Gemini prices; no sign-in, no server, installable on a phone). The Python server adds live prices, saved accounts and logins; see `server/README.md`.
 
-![Crypto Trader: trading screen on a desktop (dark) and a phone (light), paper money on recorded prices](docs/screenshots/crypto-trader.jpg)
+![A tour of Crypto Trader: replaying real prices, a paper buy order filled, a bot added and backtested with its warnings, the risk limits](docs/screenshots/crypto-trader-tour.gif)
 
 ## Layout
 - `src/` TypeScript core and browser UI. It runs standalone in a browser tab with no server (this is the mode the Claude preview uses).
